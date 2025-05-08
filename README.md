@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # jlpt-vocab-pwa
 
 ## Project setup
@@ -22,3 +23,6 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# jlpt-vocab-pwa
+>>>>>>> 8f28acc4831fa9156ac546f4d034ff8f46c48ded
