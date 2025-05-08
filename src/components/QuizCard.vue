@@ -1,16 +1,36 @@
 <template>
   <div class="quiz-card">
-    <h2>퀴즈 모드</h2>
-    <p>단어: {{ currentWord.character }} ({{ currentWord.kunyomi }})</p>
-    <div v-if="quizType === 'meaning'">
-      <input v-model="userAnswer" placeholder="뜻을 입력하세요" />
+    <h2 class="quiz-title">📝 퀴즈 모드</h2>
+    <div class="quiz-word">
+      <span class="quiz-character">{{ currentWord.character }}</span>
+      <span class="quiz-kunyomi">({{ currentWord.kunyomi }})</span>
     </div>
-    <div v-else>
-      <input v-model="userAnswer" placeholder="철자를 입력하세요" />
+    <div class="quiz-input-wrap">
+      <input
+        v-model="userAnswer"
+        :placeholder="
+          quizType === 'meaning' ? '뜻을 입력하세요' : '철자를 입력하세요'
+        "
+        class="quiz-input"
+        @keyup.enter="checkAnswer"
+        :disabled="feedback"
+        autofocus
+      />
+      <button class="submit-btn" @click="checkAnswer" :disabled="feedback">
+        제출
+      </button>
     </div>
-    <button @click="checkAnswer">제출</button>
-    <p v-if="feedback">{{ feedback }}</p>
-    <button @click="nextQuestion">다음 문제</button>
+    <transition name="fade">
+      <p
+        v-if="feedback"
+        :class="{ feedback: true, correct: isCorrect, wrong: !isCorrect }"
+      >
+        {{ feedback }}
+      </p>
+    </transition>
+    <button class="next-btn" @click="nextQuestion" v-if="feedback">
+      다음 문제
+    </button>
   </div>
 </template>
 
@@ -25,6 +45,7 @@ export default {
       userAnswer: '',
       feedback: '',
       quizType: 'meaning', // or 'spelling'
+      isCorrect: false,
     };
   },
   computed: {
@@ -34,41 +55,166 @@ export default {
   },
   methods: {
     checkAnswer() {
+      if (this.feedback) return;
+      let correct;
       if (this.quizType === 'meaning') {
-        if (this.userAnswer.trim() === this.currentWord.meaning) {
-          this.feedback = '정답입니다!';
-        } else {
-          this.feedback = `오답입니다. 정답: ${this.currentWord.meaning}`;
-        }
+        correct = this.userAnswer.trim() === this.currentWord.meaning;
+        this.feedback = correct
+          ? '정답입니다! 🎉'
+          : `오답입니다. 정답: ${this.currentWord.meaning}`;
       } else {
-        if (this.userAnswer.trim() === this.currentWord.kunyomi) {
-          this.feedback = '정답입니다!';
-        } else {
-          this.feedback = `오답입니다. 정답: ${this.currentWord.kunyomi}`;
-        }
+        correct = this.userAnswer.trim() === this.currentWord.kunyomi;
+        this.feedback = correct
+          ? '정답입니다! 🎉'
+          : `오답입니다. 정답: ${this.currentWord.kunyomi}`;
       }
+      this.isCorrect = correct;
     },
     nextQuestion() {
       this.userAnswer = '';
       this.feedback = '';
       this.currentIndex = (this.currentIndex + 1) % this.words.length;
+      this.isCorrect = false;
     },
   },
 };
 </script>
 
 <style scoped>
-.quiz {
-  border: 1px solid #ccc;
-  padding: 1em;
-  border-radius: 8px;
+.quiz-card {
+  max-width: 420px;
+  margin: 2.5em auto;
+  padding: 2em 1.5em 2em 1.5em;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(94, 114, 228, 0.13);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-input {
-  margin-bottom: 0.5em;
+
+.quiz-title {
+  font-size: 1.7em;
+  color: #5e72e4;
+  font-weight: 800;
+  margin-bottom: 1.5em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.quiz-word {
+  font-size: 1.3em;
+  margin-bottom: 1.3em;
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+}
+
+.quiz-character {
+  font-weight: bold;
+  color: #222;
+  font-size: 1.5em;
+}
+
+.quiz-kunyomi {
+  color: #888;
+  font-size: 1em;
+}
+
+.quiz-input-wrap {
+  display: flex;
   width: 100%;
-  padding: 0.5em;
+  gap: 0.5em;
+  margin-bottom: 1em;
 }
-button {
-  margin-right: 0.5em;
+
+.quiz-input {
+  flex: 1;
+  padding: 0.6em 1em;
+  border: 1.5px solid #5e72e4;
+  border-radius: 8px;
+  font-size: 1.1em;
+  outline: none;
+  transition: border 0.15s;
+}
+.quiz-input:focus {
+  border: 2px solid #825ee4;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #5e72e4 60%, #825ee4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0 1.2em;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.12s;
+}
+.submit-btn:hover:enabled {
+  background: linear-gradient(135deg, #825ee4 60%, #5e72e4 100%);
+  transform: scale(1.04);
+}
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.feedback {
+  margin: 1.2em 0 0.5em 0;
+  font-size: 1.15em;
+  font-weight: bold;
+  text-align: center;
+  transition: color 0.15s;
+}
+.correct {
+  color: #18bc9c;
+}
+.wrong {
+  color: #ff4d4f;
+}
+
+.next-btn {
+  margin-top: 0.5em;
+  background: #f5f7fa;
+  color: #5e72e4;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5em 1.3em;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.13s;
+}
+.next-btn:hover {
+  background: #e9ecef;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+@media (max-width: 500px) {
+  .quiz-card {
+    padding: 1.2em 0.5em;
+  }
+  .quiz-title {
+    font-size: 1.1em;
+  }
+  .quiz-word {
+    font-size: 1em;
+    gap: 0.4em;
+  }
+  .quiz-input,
+  .submit-btn {
+    font-size: 1em;
+    padding: 0.5em 0.7em;
+  }
 }
 </style>
