@@ -2,8 +2,8 @@
   <div class="quiz-card">
     <h2 class="quiz-title">📝 퀴즈 모드</h2>
     <div class="quiz-word">
-      <span class="quiz-character">{{ currentWord.character }}</span>
-      <span class="quiz-kunyomi">({{ currentWord.kunyomi }})</span>
+      <span class="quiz-kanji">{{ currentWord.kanji }}</span>
+      <span class="quiz-hiragana">({{ currentWord.hiragana }})</span>
     </div>
     <div class="quiz-input-wrap">
       <input
@@ -110,13 +110,13 @@ export default {
   gap: 0.7em;
 }
 
-.quiz-character {
+.quiz-kanji {
   font-weight: bold;
   color: #222;
   font-size: 1.5em;
 }
 
-.quiz-kunyomi {
+.quiz-hiragana {
   color: #888;
   font-size: 1em;
 }

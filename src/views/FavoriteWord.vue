@@ -2,8 +2,8 @@
   <div class="favorites-container">
     <h2 class="favorites-title">⭐ 즐겨찾기 단어</h2>
     <ul class="favorites-list" v-if="favorites.length > 0">
-      <li v-for="character in favorites" :key="character" class="favorite-item">
-        {{ character }}
+      <li v-for="kanji in favorites" :key="kanji" class="favorite-item">
+        {{ kanji }}
       </li>
     </ul>
     <div v-else class="empty-message">아직 즐겨찾기한 단어가 없어요!</div>

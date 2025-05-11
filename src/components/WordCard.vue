@@ -1,8 +1,8 @@
 <template>
   <div class="word-card">
     <div class="kanji-block">
-      <span class="kanji">{{ word.character }}</span>
-      <span class="reading">{{ word.kunyomi }}</span>
+      <span class="kanji">{{ word.kanji }}</span>
+      <span class="reading">{{ word.hiragana }}</span>
     </div>
     <div class="btn-group">
       <button class="toggle-btn" @click="toggleMeaning">
@@ -35,7 +35,7 @@ export default {
   },
   computed: {
     isFavorite() {
-      return this.favorites.includes(this.word.character);
+      return this.favorites.includes(this.word.kanji);
     },
   },
   methods: {
@@ -43,7 +43,7 @@ export default {
       this.showMeaning = !this.showMeaning;
     },
     toggleFavorite() {
-      this.$emit('toggle-favorite', this.word.character);
+      this.$emit('toggle-favorite', this.word.kanji);
     },
   },
 };
