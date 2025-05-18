@@ -1,9 +1,12 @@
 <template>
   <div class="quiz-card">
     <h2 class="quiz-title">📝 퀴즈 모드</h2>
-    <div class="quiz-word">
+    <div v-if="words.length" class="quiz-word">
       <span class="quiz-kanji">{{ currentWord.kanji }}</span>
       <span class="quiz-hiragana">({{ currentWord.hiragana }})</span>
+    </div>
+    <div v-else class="quiz-word">
+      <span class="quiz-kanji">단어를 불러오는 중...</span>
     </div>
     <div class="quiz-input-wrap">
       <input
@@ -13,10 +16,14 @@
         "
         class="quiz-input"
         @keyup.enter="checkAnswer"
-        :disabled="feedback"
+        :disabled="!words.length"
         autofocus
       />
-      <button class="submit-btn" @click="checkAnswer" :disabled="feedback">
+      <button
+        class="submit-btn"
+        @click="checkAnswer"
+        :disabled="!words.length || !userAnswer.trim()"
+      >
         제출
       </button>
     </div>
@@ -37,43 +44,59 @@
 <script>
 export default {
   props: {
-    words: Array,
+    words: {
+      type: Array,
+      required: true,
+      default: () => [],
+    },
   },
   data() {
     return {
       currentIndex: 0,
       userAnswer: '',
       feedback: '',
-      quizType: 'meaning', // or 'spelling'
+      quizType: 'meaning',
       isCorrect: false,
     };
   },
   computed: {
     currentWord() {
-      return this.words[this.currentIndex];
+      return this.words.length
+        ? this.words[this.currentIndex]
+        : {
+            kanji: '',
+            hiragana: '',
+            meaning: '',
+          };
     },
   },
   methods: {
     checkAnswer() {
-      if (this.feedback) return;
+      if (!this.words.length || !this.userAnswer.trim()) return;
+
       let correct;
       if (this.quizType === 'meaning') {
-        correct = this.userAnswer.trim() === this.currentWord.meaning;
+        // 정답과 사용자 입력을 쉼표로 분리하고 공백 제거
+        const correctAnswers = this.currentWord.meaning
+          .split(',')
+          .map(ans => ans.trim());
+        const userAnswers = this.userAnswer.split(',').map(ans => ans.trim());
+
+        // 사용자 답안 중 하나라도 정답 배열에 있으면 정답
+        correct = userAnswers.some(userAns => correctAnswers.includes(userAns));
+
         this.feedback = correct
           ? '정답입니다! 🎉'
           : `오답입니다. 정답: ${this.currentWord.meaning}`;
-      } else {
-        correct = this.userAnswer.trim() === this.currentWord.kunyomi;
-        this.feedback = correct
-          ? '정답입니다! 🎉'
-          : `오답입니다. 정답: ${this.currentWord.kunyomi}`;
       }
       this.isCorrect = correct;
     },
     nextQuestion() {
       this.userAnswer = '';
       this.feedback = '';
-      this.currentIndex = (this.currentIndex + 1) % this.words.length;
+      if (this.words.length) {
+        this.currentIndex = (this.currentIndex + 1) % this.words.length;
+      }
       this.isCorrect = false;
     },
   },
