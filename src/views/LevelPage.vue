@@ -53,14 +53,33 @@ export default {
     randomWord() {
       this.currentIndex = Math.floor(Math.random() * this.words.length);
     },
-    toggleFavorite(kanji) {
-      const index = this.favorites.indexOf(kanji);
+    toggleFavorite(word) {
+      const index = this.favorites.findIndex(f => f.kanji === word.kanji);
       if (index === -1) {
-        this.favorites.push(kanji);
+        // 즐겨찾기 추가
+        this.favorites.push({
+          kanji: word.kanji,
+          hiragana: word.hiragana,
+          meaning: word.meaning,
+        });
+        // 전체 단어 리스트에서 제거
+        const wordIndex = this.words.findIndex(w => w.kanji === word.kanji);
+        if (wordIndex !== -1) {
+          this.words.splice(wordIndex, 1);
+          // 현재 인덱스 조정
+          if (this.currentIndex >= this.words.length) {
+            this.currentIndex = this.words.length - 1;
+          }
+        }
       } else {
+        // 즐겨찾기 제거
         this.favorites.splice(index, 1);
+        // 전체 단어 리스트에 다시 추가
+        this.words.push(word);
       }
+      // localStorage 업데이트
       localStorage.setItem('favorites', JSON.stringify(this.favorites));
+      localStorage.setItem('words', JSON.stringify(this.words));
     },
   },
 };

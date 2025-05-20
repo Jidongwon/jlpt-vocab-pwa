@@ -25,8 +25,14 @@
 <script>
 export default {
   props: {
-    word: Object,
-    favorites: Array,
+    word: {
+      type: Object,
+      required: true,
+    },
+    favorites: {
+      type: Array,
+      default: () => [],
+    },
   },
   data() {
     return {
@@ -35,7 +41,7 @@ export default {
   },
   computed: {
     isFavorite() {
-      return this.favorites.includes(this.word.kanji);
+      return this.favorites.some(f => f.kanji === this.word.kanji);
     },
   },
   methods: {
@@ -43,7 +49,11 @@ export default {
       this.showMeaning = !this.showMeaning;
     },
     toggleFavorite() {
-      this.$emit('toggle-favorite', this.word.kanji);
+      this.$emit('toggle-favorite', {
+        kanji: this.word.kanji,
+        hiragana: this.word.hiragana,
+        meaning: this.word.meaning,
+      });
     },
   },
 };

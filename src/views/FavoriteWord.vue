@@ -2,11 +2,18 @@
   <div class="favorites-container">
     <h2 class="favorites-title">⭐ 즐겨찾기 단어</h2>
     <ul class="favorites-list" v-if="favorites.length > 0">
-      <li v-for="kanji in favorites" :key="kanji" class="favorite-item">
-        {{ kanji }}
+      <li
+        v-for="word in filteredFavorites"
+        :key="word.kanji"
+        class="favorite-item"
+      >
+        <div class="word-kanji">{{ word.kanji }}</div>
+        <div class="word-hiragana">{{ word.hiragana }}</div>
+        <div class="word-meaning">{{ word.meaning }}</div>
       </li>
     </ul>
     <div v-else class="empty-message">아직 즐겨찾기한 단어가 없어요!</div>
+    <button @click="clearFavorites" class="clear-btn">즐겨찾기 초기화</button>
   </div>
 </template>
 
@@ -14,12 +21,37 @@
 export default {
   data() {
     return {
-      favorites: JSON.parse(localStorage.getItem('favorites') || '[]'),
+      favorites: [],
     };
+  },
+  computed: {
+    filteredFavorites() {
+      return this.favorites.filter(
+        word =>
+          typeof word === 'object' &&
+          word.kanji &&
+          word.hiragana &&
+          word.meaning
+      );
+    },
+  },
+  methods: {
+    clearFavorites() {
+      localStorage.removeItem('favorites');
+      this.favorites = [];
+    },
+  },
+  mounted() {
+    try {
+      this.favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    } catch (e) {
+      console.error('Error parsing favorites:', e);
+      this.favorites = [];
+      localStorage.removeItem('favorites');
+    }
   },
 };
 </script>
-
 <style scoped>
 .favorites-container {
   max-width: 400px;
@@ -39,6 +71,16 @@ export default {
   letter-spacing: 1px;
 }
 
+.clear-btn {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 .favorites-list {
   list-style: none;
   padding: 0;
@@ -48,14 +90,29 @@ export default {
 .favorite-item {
   background: linear-gradient(90deg, #e9ecef 60%, #f5f7fa 100%);
   color: #333;
-  font-size: 1.1em;
   margin-bottom: 0.7em;
-  padding: 0.7em 1.2em;
+  padding: 1em 1.2em;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(94, 114, 228, 0.06);
   transition: background 0.18s;
-  font-weight: 500;
-  letter-spacing: 0.5px;
+}
+
+.word-kanji {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.2em;
+}
+
+.word-hiragana {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 0.4em;
+}
+
+.word-meaning {
+  font-size: 0.95em;
+  color: #444;
 }
 
 .favorite-item:last-child {
