@@ -3,7 +3,6 @@
     <h2 class="quiz-title">📝 퀴즈 모드</h2>
     <div v-if="words.length" class="quiz-word">
       <span class="quiz-kanji">{{ currentWord.kanji }}</span>
-      <span class="quiz-hiragana">({{ currentWord.hiragana }})</span>
     </div>
     <div v-else class="quiz-word">
       <span class="quiz-kanji">단어를 불러오는 중...</span>
@@ -11,9 +10,7 @@
     <div class="quiz-input-wrap">
       <input
         v-model="userAnswer"
-        :placeholder="
-          quizType === 'meaning' ? '뜻을 입력하세요' : '철자를 입력하세요'
-        "
+        placeholder="히라가나를 입력하세요"
         class="quiz-input"
         @keyup.enter="checkAnswer"
         :disabled="!words.length"
@@ -55,7 +52,7 @@ export default {
       currentIndex: 0,
       userAnswer: '',
       feedback: '',
-      quizType: 'meaning',
+      quizType: 'hiragana',
       isCorrect: false,
     };
   },
@@ -75,30 +72,34 @@ export default {
       if (!this.words.length || !this.userAnswer.trim()) return;
 
       let correct;
-      if (this.quizType === 'meaning') {
-        // 정답과 사용자 입력을 쉼표로 분리하고 공백 제거
-        const correctAnswers = this.currentWord.meaning
-          .split(',')
-          .map(ans => ans.trim());
-        const userAnswers = this.userAnswer.split(',').map(ans => ans.trim());
+      // 히라가나 체크 로직
+      correct = this.userAnswer.trim() === this.currentWord.hiragana;
 
-        // 사용자 답안 중 하나라도 정답 배열에 있으면 정답
-        correct = userAnswers.some(userAns => correctAnswers.includes(userAns));
+      this.feedback = correct
+        ? '정답입니다! 🎉'
+        : `오답입니다. 읽는법: ${this.currentWord.hiragana}, 뜻: ${this.currentWord.meaning}`;
 
-        this.feedback = correct
-          ? '정답입니다! 🎉'
-          : `오답입니다. 정답: ${this.currentWord.meaning}`;
-      }
       this.isCorrect = correct;
+    },
+    shuffleWords() {
+      this.currentIndex = Math.floor(Math.random() * this.words.length);
     },
     nextQuestion() {
       this.userAnswer = '';
       this.feedback = '';
       if (this.words.length) {
-        this.currentIndex = (this.currentIndex + 1) % this.words.length;
+        // 랜덤한 인덱스 선택 (현재 인덱스와 다른 값)
+        let newIndex;
+        do {
+          newIndex = Math.floor(Math.random() * this.words.length);
+        } while (newIndex === this.currentIndex && this.words.length > 1);
+        this.currentIndex = newIndex;
       }
       this.isCorrect = false;
     },
+  },
+  mounted() {
+    this.shuffleWords();
   },
 };
 </script>
