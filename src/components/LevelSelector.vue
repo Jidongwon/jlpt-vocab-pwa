@@ -1,26 +1,47 @@
 <template>
   <div class="level-selector">
-    <button
-      v-for="level in levels"
-      :key="level"
-      @click="selectLevel(level)"
-      class="level-btn"
-    >
-      {{ level }}
-    </button>
+    <div v-for="(categories, level) in levels" :key="level" class="level-group">
+      <button @click="selectLevel(level)" class="level-btn">
+        {{ level }}
+      </button>
+      <div class="category-buttons" v-if="level === 'N1'">
+        <button
+          v-for="category in categories"
+          :key="category.id"
+          @click="selectCategory(level, category.id)"
+          class="category-btn"
+        >
+          {{ category.name }}
+        </button>
+      </div>
+    </div>
   </div>
 </template>
-
 <script>
 export default {
   data() {
     return {
-      levels: ['N1', 'N2', 'N3', 'N4', 'N5'],
+      levels: {
+        N1: [
+          { id: 'adverb', name: '부사', path: '/n1/adverb' },
+          { id: 'synonym', name: '동의어', path: '/n1/synonym' },
+        ],
+        N2: [],
+        N3: [],
+        N4: [],
+        N5: [],
+      },
     };
   },
   methods: {
     selectLevel(level) {
       this.$router.push({ name: 'Level', params: { level } });
+    },
+    selectCategory(level, categoryId) {
+      const category = this.levels[level].find(c => c.id === categoryId);
+      if (category) {
+        this.$router.push(category.path);
+      }
     },
   },
 };
@@ -29,10 +50,38 @@ export default {
 <style scoped>
 .level-selector {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   gap: 1.2em;
   margin: 2em 0;
+}
+
+.level-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.category-buttons {
+  display: flex;
+  gap: 0.6em;
+}
+
+.category-btn {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 8px;
+  background: #f5f7fa;
+  color: #5e72e4;
+  font-size: 0.9em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.category-btn:hover {
+  background: #e9ecef;
 }
 
 .level-btn {

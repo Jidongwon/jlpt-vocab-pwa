@@ -1,0 +1,3757 @@
+[
+  {
+    "word1": {
+      "kanji": "落語する",
+      "hiragana": "らくごする",
+      "meaning": "냉담하다"
+    },
+    "word2": {
+      "kanji": "冷淡だ",
+      "hiragana": "れいたんだ",
+      "meaning": "냉담하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "立腹する",
+      "hiragana": "りっぷくする",
+      "meaning": "화가 나다"
+    },
+    "word2": { "kanji": "おこる", "hiragana": "おこる", "meaning": "화가 나다" }
+  },
+  {
+    "word1": {
+      "kanji": "リベート",
+      "hiragana": "りべーと",
+      "meaning": "리베이트, 수수료"
+    },
+    "word2": {
+      "kanji": "手数料",
+      "hiragana": "てすうりょう",
+      "meaning": "수수료"
+    }
+  },
+  {
+    "word1": { "kanji": "予習", "hiragana": "よしゅう", "meaning": "예습" },
+    "word2": {
+      "kanji": "下調べ",
+      "hiragana": "したしらべ",
+      "meaning": "사전 조사"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "饒舌",
+      "hiragana": "じょうぜつ",
+      "meaning": "말이 많음, 수다"
+    },
+    "word2": {
+      "kanji": "べらべら",
+      "hiragana": "べらべら",
+      "meaning": "유창함, 말이 많음"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "承知",
+      "hiragana": "しょうち",
+      "meaning": "승낙, 오케이"
+    },
+    "word2": {
+      "kanji": "オーケー",
+      "hiragana": "おーけー",
+      "meaning": "오케이, 양해"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "はっきりしている",
+      "hiragana": "はっきりしている",
+      "meaning": "확실하다"
+    },
+    "word2": {
+      "kanji": "明瞭",
+      "hiragana": "めいりょう",
+      "meaning": "명료함, 분명함"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "うれしい知らせ",
+      "hiragana": "うれしいしらせ",
+      "meaning": "기쁜 소식"
+    },
+    "word2": {
+      "kanji": "吉報",
+      "hiragana": "きっぽう",
+      "meaning": "길한 소식, 기쁜 소식"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "ロマンチック",
+      "hiragana": "ろまんちっく",
+      "meaning": "로맨틱"
+    },
+    "word2": {
+      "kanji": "夢想的",
+      "hiragana": "むそうてき",
+      "meaning": "몽상적, 로맨틱"
+    }
+  },
+  {
+    "word1": { "kanji": "仲直り", "hiragana": "なかなおり", "meaning": "화해" },
+    "word2": { "kanji": "和解", "hiragana": "わかい", "meaning": "화해" }
+  },
+  {
+    "word1": {
+      "kanji": "面倒だ",
+      "hiragana": "めんどうだ",
+      "meaning": "성가시다"
+    },
+    "word2": {
+      "kanji": "煩わしい",
+      "hiragana": "わずらわしい",
+      "meaning": "귀찮다, 성가시다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "まばらだ",
+      "hiragana": "まばらだ",
+      "meaning": "드문드문하다"
+    },
+    "word2": { "kanji": "少ない", "hiragana": "すくない", "meaning": "적다" }
+  },
+  {
+    "word1": {
+      "kanji": "無関係",
+      "hiragana": "むかんけい",
+      "meaning": "무관계, 상관없음"
+    },
+    "word2": {
+      "kanji": "もれなく",
+      "hiragana": "もれなく",
+      "meaning": "전원에게 / あまねく: 골고루"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "ムード",
+      "hiragana": "むーど",
+      "meaning": "분위기, 기분"
+    },
+    "word2": {
+      "kanji": "雰囲気",
+      "hiragana": "ふんいき",
+      "meaning": "분위기 / 気分: 기분"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "無償で",
+      "hiragana": "むしょうで",
+      "meaning": "무상으로"
+    },
+    "word2": {
+      "kanji": "ただで",
+      "hiragana": "ただで",
+      "meaning": "공짜로 / やすらに: 헛수고로"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "無作為に",
+      "hiragana": "むさくいに",
+      "meaning": "임의로, 무작위로"
+    },
+    "word2": {
+      "kanji": "むやみに",
+      "hiragana": "むやみに",
+      "meaning": "함부로"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "支払う",
+      "hiragana": "しはらう",
+      "meaning": "지불하다"
+    },
+    "word2": {
+      "kanji": "支給する",
+      "hiragana": "しきゅうする",
+      "meaning": "지급하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "簡単に",
+      "hiragana": "かんたんに",
+      "meaning": "간단하게"
+    },
+    "word2": {
+      "kanji": "容易に",
+      "hiragana": "よういに",
+      "meaning": "용이하게"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "深く考えもなく",
+      "hiragana": "ふかくかんがえもなく",
+      "meaning": "깊이 생각하지도 않고"
+    },
+    "word2": {
+      "kanji": "無配慮",
+      "hiragana": "むはいりょ",
+      "meaning": "무모함"
+    }
+  },
+  {
+    "word1": { "kanji": "無論", "hiragana": "むろん", "meaning": "물론" },
+    "word2": { "kanji": "もちろん", "hiragana": "もちろん", "meaning": "물론" }
+  },
+  {
+    "word1": { "kanji": "目標", "hiragana": "もくひょう", "meaning": "목표" },
+    "word2": { "kanji": "めど", "hiragana": "めど", "meaning": "목표" }
+  },
+  {
+    "word1": {
+      "kanji": "明確だ",
+      "hiragana": "めいかくだ",
+      "meaning": "명확하다"
+    },
+    "word2": {
+      "kanji": "はっきりする",
+      "hiragana": "はっきりする",
+      "meaning": "확실하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "メンテナンス",
+      "hiragana": "めんてなんす",
+      "meaning": "관리, 유지"
+    },
+    "word2": {
+      "kanji": "管理",
+      "hiragana": "かんり",
+      "meaning": "관리 / 維持: 유지"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "用意する",
+      "hiragana": "よういする",
+      "meaning": "준비하다"
+    },
+    "word2": {
+      "kanji": "準備する",
+      "hiragana": "じゅんびする",
+      "meaning": "준비하다"
+    }
+  },
+  {
+    "word1": { "kanji": "言い訳", "hiragana": "いいわけ", "meaning": "변명" },
+    "word2": { "kanji": "弁解", "hiragana": "べんかい", "meaning": "변명" }
+  },
+  {
+    "word1": {
+      "kanji": "少しも",
+      "hiragana": "すこしも",
+      "meaning": "조금도, 전혀"
+    },
+    "word2": { "kanji": "まったく", "hiragana": "まったく", "meaning": "전혀" }
+  },
+  {
+    "word1": { "kanji": "現行", "hiragana": "げんこう", "meaning": "현재" },
+    "word2": { "kanji": "現在", "hiragana": "げんざい", "meaning": "현재" }
+  },
+  {
+    "word1": {
+      "kanji": "ひたすら",
+      "hiragana": "ひたすら",
+      "meaning": "한결같이"
+    },
+    "word2": {
+      "kanji": "ひたむきに",
+      "hiragana": "ひたむきに",
+      "meaning": "한결같이"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "目立つ",
+      "hiragana": "めだつ",
+      "meaning": "두드러지다, 눈에 띄다"
+    },
+    "word2": {
+      "kanji": "いちじるしい",
+      "hiragana": "いちじるしい",
+      "meaning": "현저하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "芽ぶく",
+      "hiragana": "めぶく",
+      "meaning": "싹트다, 움트다"
+    },
+    "word2": {
+      "kanji": "いくくる",
+      "hiragana": "いくくる",
+      "meaning": "만지작거리다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "もてる",
+      "hiragana": "もてる",
+      "meaning": "인기가 있다"
+    },
+    "word2": {
+      "kanji": "人気がある",
+      "hiragana": "にんきがある",
+      "meaning": "인기가 있다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "好奇心",
+      "hiragana": "こうきしん",
+      "meaning": "호기심"
+    },
+    "word2": {
+      "kanji": "物好き",
+      "hiragana": "ものずき",
+      "meaning": "유별난 것을 좋아함, 호기심"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "もめごと",
+      "hiragana": "もめごと",
+      "meaning": "다툼, 분규, 갈등"
+    },
+    "word2": {
+      "kanji": "電騒",
+      "hiragana": "でんそう",
+      "meaning": "갈등 / 争い: 다툼, 분쟁"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "もろに",
+      "hiragana": "もろに",
+      "meaning": "직접, 정면으로"
+    },
+    "word2": {
+      "kanji": "まともに・じかに",
+      "hiragana": "まともに・じかに",
+      "meaning": "직접적으로"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "やきもち",
+      "hiragana": "やきもち",
+      "meaning": "질투, 시기"
+    },
+    "word2": {
+      "kanji": "ねたみ・嫉妬",
+      "hiragana": "ねたみ・しっと",
+      "meaning": "시기, 질투"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "やきもちをやく",
+      "hiragana": "やきもちをやく",
+      "meaning": "질투하다"
+    },
+    "word2": {
+      "kanji": "ねたむ・嫉妬する",
+      "hiragana": "ねたむ・しっとする",
+      "meaning": "시기하다, 질투하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "やんちゃな",
+      "hiragana": "やんちゃな",
+      "meaning": "때를 쓰는"
+    },
+    "word2": {
+      "kanji": "わがままな",
+      "hiragana": "わがままな",
+      "meaning": "제멋대로의"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "誘因",
+      "hiragana": "ゆういん",
+      "meaning": "어떤 상태를 야기하는 원인"
+    },
+    "word2": { "kanji": "きっかけ", "hiragana": "きっかけ", "meaning": "계기" }
+  },
+  {
+    "word1": {
+      "kanji": "ブランク",
+      "hiragana": "ぶらんく",
+      "meaning": "공백, 빈칸"
+    },
+    "word2": { "kanji": "空白", "hiragana": "くうはく", "meaning": "공백" }
+  },
+  {
+    "word1": {
+      "kanji": "ブラック",
+      "hiragana": "ぶらっく",
+      "meaning": "블랙, 검정"
+    },
+    "word2": { "kanji": "黒", "hiragana": "くろ", "meaning": "검정" }
+  },
+  {
+    "word1": {
+      "kanji": "プラス",
+      "hiragana": "ぷらす",
+      "meaning": "플러스, 더함"
+    },
+    "word2": { "kanji": "加える", "hiragana": "くわえる", "meaning": "더하다" }
+  },
+  {
+    "word1": {
+      "kanji": "プロセス",
+      "hiragana": "ぷろせす",
+      "meaning": "프로세스, 과정"
+    },
+    "word2": { "kanji": "過程", "hiragana": "かてい", "meaning": "과정" }
+  },
+  {
+    "word1": {
+      "kanji": "プロフィール",
+      "hiragana": "ぷろふぃーる",
+      "meaning": "프로필"
+    },
+    "word2": {
+      "kanji": "人物紹介",
+      "hiragana": "じんぶつしょうかい",
+      "meaning": "인물소개"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "ふんだんに",
+      "hiragana": "ふんだんに",
+      "meaning": "풍부하게"
+    },
+    "word2": {
+      "kanji": "豊富に",
+      "hiragana": "ほうふに",
+      "meaning": "풍부하게"
+    }
+  },
+  {
+    "word1": { "kanji": "縮小", "hiragana": "しゅくしょう", "meaning": "축소" },
+    "word2": { "kanji": "減少", "hiragana": "げんしょう", "meaning": "감소" }
+  },
+  {
+    "word1": { "kanji": "半径", "hiragana": "はんけい", "meaning": "반경" },
+    "word2": { "kanji": "半径", "hiragana": "はんけい", "meaning": "반경" }
+  },
+  {
+    "word1": {
+      "kanji": "へきえき",
+      "hiragana": "へきえき",
+      "meaning": "질림, 진저리남"
+    },
+    "word2": {
+      "kanji": "うんざり",
+      "hiragana": "うんざり",
+      "meaning": "질림, 싫증남"
+    }
+  },
+  {
+    "word1": { "kanji": "折衷", "hiragana": "せっちゅう", "meaning": "절충" },
+    "word2": { "kanji": "妥協", "hiragana": "だきょう", "meaning": "타협" }
+  },
+  {
+    "word1": {
+      "kanji": "ポーズ",
+      "hiragana": "ぽーず",
+      "meaning": "포즈, 자세"
+    },
+    "word2": { "kanji": "姿勢", "hiragana": "しせい", "meaning": "자세" }
+  },
+  {
+    "word1": {
+      "kanji": "依頼する",
+      "hiragana": "いらいする",
+      "meaning": "의뢰하다, 부탁하다"
+    },
+    "word2": { "kanji": "頼む", "hiragana": "たのむ", "meaning": "부탁하다" }
+  },
+  {
+    "word1": { "kanji": "本気", "hiragana": "ほんき", "meaning": "진지함" },
+    "word2": { "kanji": "まじめ", "hiragana": "まじめ", "meaning": "성실함" }
+  },
+  {
+    "word1": { "kanji": "前置き", "hiragana": "まえおき", "meaning": "서론" },
+    "word2": { "kanji": "序論", "hiragana": "じょろん", "meaning": "서론" }
+  },
+  {
+    "word1": {
+      "kanji": "前向き",
+      "hiragana": "まえむき",
+      "meaning": "적극적, 진취적"
+    },
+    "word2": {
+      "kanji": "積極的",
+      "hiragana": "せっきょくてき",
+      "meaning": "적극적"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "前もって",
+      "hiragana": "まえもって",
+      "meaning": "미리, 사전에"
+    },
+    "word2": {
+      "kanji": "あらかじめ",
+      "hiragana": "あらかじめ",
+      "meaning": "미리, 사전에"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "まちがいなく",
+      "hiragana": "まちがいなく",
+      "meaning": "틀림없이"
+    },
+    "word2": { "kanji": "確かに", "hiragana": "たしかに", "meaning": "확실히" }
+  },
+  {
+    "word1": {
+      "kanji": "マッチ",
+      "hiragana": "まっち",
+      "meaning": "매치, 어울림, 일치"
+    },
+    "word2": { "kanji": "調和", "hiragana": "ちょうわ", "meaning": "조화" },
+    "word3": { "kanji": "一致", "hiragana": "いっち", "meaning": "일치" }
+  },
+  {
+    "word1": {
+      "kanji": "まなざし",
+      "hiragana": "まなざし",
+      "meaning": "눈길, 시선"
+    },
+    "word2": { "kanji": "視線", "hiragana": "しせん", "meaning": "시선" }
+  },
+  {
+    "word1": {
+      "kanji": "マニュアル",
+      "hiragana": "まにゅある",
+      "meaning": "매뉴얼"
+    },
+    "word2": {
+      "kanji": "手引書",
+      "hiragana": "てびきしょ",
+      "meaning": "안내서, 입문서"
+    }
+  },
+  {
+    "word1": { "kanji": "間々", "hiragana": "まま", "meaning": "가끔, 때때로" },
+    "word2": {
+      "kanji": "ときどき",
+      "hiragana": "ときどき",
+      "meaning": "때때로"
+    }
+  },
+  {
+    "word1": { "kanji": "背景", "hiragana": "はいけい", "meaning": "배경" },
+    "word2": { "kanji": "バック", "hiragana": "ばっく", "meaning": "배경" }
+  },
+  {
+    "word1": {
+      "kanji": "はかどる",
+      "hiragana": "はかどる",
+      "meaning": "일이 순조롭게 되어가다"
+    },
+    "word2": {
+      "kanji": "順調に進む",
+      "hiragana": "じゅんちょうにすすむ",
+      "meaning": "순조롭게 진행되다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "励ます",
+      "hiragana": "はげます",
+      "meaning": "격려하다"
+    },
+    "word2": {
+      "kanji": "激励する",
+      "hiragana": "げきれいする",
+      "meaning": "격려하다"
+    }
+  },
+  {
+    "word1": { "kanji": "背景", "hiragana": "はいけい", "meaning": "배경" },
+    "word2": {
+      "kanji": "サポート／後援",
+      "hiragana": "さぽーと／こうえん",
+      "meaning": "지원, 후원"
+    }
+  },
+  {
+    "word1": { "kanji": "支援", "hiragana": "しえん", "meaning": "지원" },
+    "word2": {
+      "kanji": "支持／援助",
+      "hiragana": "しじ／えんじょ",
+      "meaning": "지지, 원조"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "ほかと比べてよく",
+      "hiragana": "ほかとくらべてよく",
+      "meaning": "다른 것과 비교해서 특히 좋다"
+    },
+    "word2": {
+      "kanji": "抜群だ",
+      "hiragana": "ばつぐんだ",
+      "meaning": "뛰어나다, 탁월하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "戦い",
+      "hiragana": "たたかい",
+      "meaning": "싸움, 전투"
+    },
+    "word2": {
+      "kanji": "バトル",
+      "hiragana": "ばとる",
+      "meaning": "배틀, 싸움"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "非常に・たいそう",
+      "hiragana": "ひじょうに・たいそう",
+      "meaning": "대단히, 매우"
+    },
+    "word2": {
+      "kanji": "競争する／競い合う",
+      "hiragana": "きょうそうする／きそいあう",
+      "meaning": "경쟁하다"
+    }
+  },
+  {
+    "word1": { "kanji": "指標", "hiragana": "しひょう", "meaning": "지표" },
+    "word2": {
+      "kanji": "バロメーター",
+      "hiragana": "ばろめーたー",
+      "meaning": "바로미터, 지표"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "能力／実力",
+      "hiragana": "のうりょく／じつりょく",
+      "meaning": "능력, 실력"
+    },
+    "word2": { "kanji": "力", "hiragana": "ちから", "meaning": "힘, 능력" }
+  },
+  {
+    "word1": {
+      "kanji": "判じる・す",
+      "hiragana": "はんじる・す",
+      "meaning": "판단하다"
+    },
+    "word2": {
+      "kanji": "見分ける／判断する",
+      "hiragana": "みわける／はんだんする",
+      "meaning": "구별하다, 판단하다"
+    }
+  },
+  {
+    "word1": { "kanji": "比喩", "hiragana": "ひゆ", "meaning": "비유" },
+    "word2": { "kanji": "例え", "hiragana": "たとえ", "meaning": "비유, 예시" }
+  },
+  {
+    "word1": {
+      "kanji": "日和",
+      "hiragana": "ひより",
+      "meaning": "날씨, (좋은) 날씨"
+    },
+    "word2": {
+      "kanji": "天気／晴天",
+      "hiragana": "てんき／せいてん",
+      "meaning": "날씨, 좋은 날씨"
+    }
+  },
+  {
+    "word1": { "kanji": "ひろう", "hiragana": "ひろう", "meaning": "줍다" },
+    "word2": { "kanji": "ちらし", "hiragana": "ちらし", "meaning": "전단지" }
+  },
+  {
+    "word1": {
+      "kanji": "変す",
+      "hiragana": "へんす",
+      "meaning": "변하다, 바꾸다"
+    },
+    "word2": { "kanji": "変える", "hiragana": "かえる", "meaning": "바꾸다" }
+  },
+  {
+    "word1": {
+      "kanji": "不意に",
+      "hiragana": "ふいに",
+      "meaning": "뜻밖에, 갑자기, 느닷없이"
+    },
+    "word2": {
+      "kanji": "突然・いきなり・急に",
+      "hiragana": "とつぜん・いきなり・きゅうに",
+      "meaning": "갑자기"
+    }
+  },
+  {
+    "word1": { "kanji": "補助", "hiragana": "ほじょ", "meaning": "보조, 지원" },
+    "word2": {
+      "kanji": "援助",
+      "hiragana": "えんじょ",
+      "meaning": "원조, 도움"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "フォロー",
+      "hiragana": "ふぉろー",
+      "meaning": "후크, 보조"
+    },
+    "word2": { "kanji": "補助", "hiragana": "ほじょ", "meaning": "보조" }
+  },
+  {
+    "word1": { "kanji": "へた", "hiragana": "へた", "meaning": "서투름" },
+    "word2": {
+      "kanji": "面倒くさがり",
+      "hiragana": "めんどうくさがり",
+      "meaning": "귀찮아 함"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "不器用",
+      "hiragana": "ぶきよう",
+      "meaning": "서투름, 솜씨가 없음"
+    },
+    "word2": {
+      "kanji": "面倒くさがり",
+      "hiragana": "めんどうくさがり",
+      "meaning": "귀찮아 함"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "不精・無精",
+      "hiragana": "ぶしょう・むしょう",
+      "meaning": "게으름, 귀찮아 함"
+    },
+    "word2": {
+      "kanji": "はかばかしくない",
+      "hiragana": "はかばかしくない",
+      "meaning": "부진하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "附随・付随",
+      "hiragana": "ふずい",
+      "meaning": "부수, 연관"
+    },
+    "word2": { "kanji": "連関", "hiragana": "れんかん", "meaning": "연관" }
+  },
+  {
+    "word1": {
+      "kanji": "不注意",
+      "hiragana": "ふちゅうい",
+      "meaning": "부주의함"
+    },
+    "word2": {
+      "kanji": "不用意／軽率",
+      "hiragana": "ふようい／けいそつ",
+      "meaning": "부주의함, 경솔함"
+    }
+  },
+  {
+    "word1": { "kanji": "復帰", "hiragana": "ふっき", "meaning": "복귀" },
+    "word2": {
+      "kanji": "カムバック",
+      "hiragana": "かむばっく",
+      "meaning": "컴백, 복귀"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "ふに落ちない",
+      "hiragana": "ふにおちない",
+      "meaning": "납득이 가지 않는다"
+    },
+    "word2": {
+      "kanji": "納得できない",
+      "hiragana": "なっとくできない",
+      "meaning": "납득할 수 없다"
+    }
+  },
+  {
+    "word1": { "kanji": "催促", "hiragana": "さいそく", "meaning": "재촉" },
+    "word2": { "kanji": "督促", "hiragana": "とくそく", "meaning": "독촉" }
+  },
+  {
+    "word1": { "kanji": "直前", "hiragana": "ちょくぜん", "meaning": "직전" },
+    "word2": { "kanji": "目前", "hiragana": "もくぜん", "meaning": "목전" }
+  },
+  {
+    "word1": {
+      "kanji": "時間前に",
+      "hiragana": "じかんまえに",
+      "meaning": "시간 전에"
+    },
+    "word2": { "kanji": "早めに", "hiragana": "はやめに", "meaning": "미리" }
+  },
+  {
+    "word1": { "kanji": "たくさん", "hiragana": "たくさん", "meaning": "많이" },
+    "word2": { "kanji": "多い", "hiragana": "おおい", "meaning": "많다" }
+  },
+  {
+    "word1": {
+      "kanji": "にわかに",
+      "hiragana": "にわかに",
+      "meaning": "갑자기"
+    },
+    "word2": { "kanji": "突然", "hiragana": "とつぜん", "meaning": "갑자기" }
+  },
+  {
+    "word1": {
+      "kanji": "主張する",
+      "hiragana": "しゅちょうする",
+      "meaning": "주장하다"
+    },
+    "word2": {
+      "kanji": "主張する",
+      "hiragana": "しゅちょうする",
+      "meaning": "주장하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "生じる",
+      "hiragana": "しょうじる",
+      "meaning": "생기다, 발생하다"
+    },
+    "word2": {
+      "kanji": "生まれる",
+      "hiragana": "うまれる",
+      "meaning": "태어나다, 생기다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "とんでもない",
+      "hiragana": "とんでもない",
+      "meaning": "엉뚱한, 터무니없다"
+    },
+    "word2": {
+      "kanji": "ありえない",
+      "hiragana": "ありえない",
+      "meaning": "있을 수 없다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "把握する",
+      "hiragana": "はあくする",
+      "meaning": "파악하다"
+    },
+    "word2": {
+      "kanji": "理解する",
+      "hiragana": "りかいする",
+      "meaning": "이해하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "取り除く",
+      "hiragana": "とりのぞく",
+      "meaning": "제거하다"
+    },
+    "word2": {
+      "kanji": "排除する",
+      "hiragana": "はいじょする",
+      "meaning": "배제하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "すなわち",
+      "hiragana": "すなわち",
+      "meaning": "즉, 곧"
+    },
+    "word2": { "kanji": "結局", "hiragana": "けっきょく", "meaning": "결국" }
+  },
+  {
+    "word1": {
+      "kanji": "おおまかに",
+      "hiragana": "おおまかに",
+      "meaning": "대략적으로"
+    },
+    "word2": { "kanji": "大体", "hiragana": "だいたい", "meaning": "대체로" }
+  },
+  {
+    "word1": {
+      "kanji": "欲欲",
+      "hiragana": "よくよく",
+      "meaning": "욕심이 많음"
+    },
+    "word2": {
+      "kanji": "欲深い",
+      "hiragana": "よくぶかい",
+      "meaning": "욕심이 많다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "曇っていて暗い",
+      "hiragana": "くもっていてくらい",
+      "meaning": "흐려져 있어 어둡다"
+    },
+    "word2": {
+      "kanji": "どんよりした天気だ",
+      "hiragana": "どんよりしたてんきだ",
+      "meaning": "우중충한 날씨다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "なじむ",
+      "hiragana": "なじむ",
+      "meaning": "익숙해지다"
+    },
+    "word2": {
+      "kanji": "慣れる",
+      "hiragana": "なれる",
+      "meaning": "익숙해지다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "有名だ",
+      "hiragana": "ゆうめいだ",
+      "meaning": "유명하다"
+    },
+    "word2": {
+      "kanji": "名高い",
+      "hiragana": "なだかい",
+      "meaning": "유명하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "並べて",
+      "hiragana": "ならべて",
+      "meaning": "나란히, 줄지어"
+    },
+    "word2": { "kanji": "並ぶ", "hiragana": "ならぶ", "meaning": "줄서다" }
+  },
+  {
+    "word1": {
+      "kanji": "ならわし",
+      "hiragana": "ならわし",
+      "meaning": "관례, 관습"
+    },
+    "word2": { "kanji": "習慣", "hiragana": "しゅうかん", "meaning": "습관" }
+  },
+  {
+    "word1": {
+      "kanji": "なんだか",
+      "hiragana": "なんだか",
+      "meaning": "왠지 모르게"
+    },
+    "word2": {
+      "kanji": "なんとなく",
+      "hiragana": "なんとなく",
+      "meaning": "왠지 모르게"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "繁盛する",
+      "hiragana": "はんじょうする",
+      "meaning": "번창하다"
+    },
+    "word2": {
+      "kanji": "栄える",
+      "hiragana": "さかえる",
+      "meaning": "번영하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "消極的",
+      "hiragana": "しょうきょくてき",
+      "meaning": "소극적"
+    },
+    "word2": {
+      "kanji": "否定的",
+      "hiragana": "ひていてき",
+      "meaning": "부정적"
+    }
+  },
+  {
+    "word1": { "kanji": "妨害", "hiragana": "ぼうがい", "meaning": "방해" },
+    "word2": { "kanji": "障害", "hiragana": "しょうがい", "meaning": "장애" }
+  },
+  {
+    "word1": { "kanji": "根気", "hiragana": "こんき", "meaning": "끈기" },
+    "word2": { "kanji": "粘り", "hiragana": "ねばり", "meaning": "끈기" }
+  },
+  {
+    "word1": {
+      "kanji": "挑戦する",
+      "hiragana": "ちょうせんする",
+      "meaning": "도전하다"
+    },
+    "word2": {
+      "kanji": "いどむ・チャレンジする",
+      "hiragana": "いどむ・ちゃれんじする",
+      "meaning": "도전하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "便利で役に立つ",
+      "hiragana": "べんりでやくにたつ",
+      "meaning": "편리하고 도움이 된다"
+    },
+    "word2": {
+      "kanji": "重宝する",
+      "hiragana": "ちょうほうする",
+      "meaning": "쓸모가 있어 편리하다"
+    }
+  },
+  {
+    "word1": { "kanji": "貧困", "hiragana": "ひんこん", "meaning": "빈곤" },
+    "word2": { "kanji": "貧乏", "hiragana": "びんぼう", "meaning": "가난" }
+  },
+  {
+    "word1": {
+      "kanji": "ついては",
+      "hiragana": "ついては",
+      "meaning": "따라서, 그래서"
+    },
+    "word2": {
+      "kanji": "したがって",
+      "hiragana": "したがって",
+      "meaning": "따라서"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "流れがいい",
+      "hiragana": "ながれがいい",
+      "meaning": "물이 좋다"
+    },
+    "word2": {
+      "kanji": "平凡・あききたり",
+      "hiragana": "へいぼん・あききたり",
+      "meaning": "평범함"
+    }
+  },
+  {
+    "word1": { "kanji": "補償", "hiragana": "ほしょう", "meaning": "보상" },
+    "word2": { "kanji": "補助", "hiragana": "ほじょ", "meaning": "보조" }
+  },
+  {
+    "word1": {
+      "kanji": "修繕する",
+      "hiragana": "しゅうぜんする",
+      "meaning": "수선하다"
+    },
+    "word2": {
+      "kanji": "修理する",
+      "hiragana": "しゅうりする",
+      "meaning": "수리하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "告げる",
+      "hiragana": "つげる",
+      "meaning": "고하다, 알리다"
+    },
+    "word2": {
+      "kanji": "知らせる",
+      "hiragana": "しらせる",
+      "meaning": "알리다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "つつましい",
+      "hiragana": "つつましい",
+      "meaning": "조심스럽다"
+    },
+    "word2": {
+      "kanji": "控えめだ",
+      "hiragana": "ひかえめだ",
+      "meaning": "조심스럽다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "集まる・会合",
+      "hiragana": "あつまる・かいごう",
+      "meaning": "모이다, 회합"
+    },
+    "word2": { "kanji": "集まる", "hiragana": "あつまる", "meaning": "모이다" }
+  },
+  {
+    "word1": {
+      "kanji": "広く呼びかけて集める",
+      "hiragana": "ひろくよびかけてあつめる",
+      "meaning": "널리 호소하여 모으다"
+    },
+    "word2": {
+      "kanji": "方法・手段",
+      "hiragana": "ほうほう・しゅだん",
+      "meaning": "방법, 수단"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "手掛かり",
+      "hiragana": "てがかり",
+      "meaning": "단서, 실마리"
+    },
+    "word2": { "kanji": "ヒント", "hiragana": "ひんと", "meaning": "힌트" }
+  },
+  {
+    "word1": {
+      "kanji": "適当・適度・適切",
+      "hiragana": "てきとう・てきど・てきせつ",
+      "meaning": "적당함, 적절함"
+    },
+    "word2": { "kanji": "適切", "hiragana": "てきせつ", "meaning": "적절함" }
+  },
+  {
+    "word1": {
+      "kanji": "手順",
+      "hiragana": "てじゅん",
+      "meaning": "순서, 절차"
+    },
+    "word2": {
+      "kanji": "段取り",
+      "hiragana": "だんどり",
+      "meaning": "계획, 순서"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "手はず",
+      "hiragana": "てはず",
+      "meaning": "준비, 계획"
+    },
+    "word2": { "kanji": "計画", "hiragana": "けいかく", "meaning": "계획" }
+  },
+  {
+    "word1": {
+      "kanji": "マニュアル",
+      "hiragana": "まにゅある",
+      "meaning": "매뉴얼"
+    },
+    "word2": {
+      "kanji": "手引き",
+      "hiragana": "てびき",
+      "meaning": "안내, 지침"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "デリケート",
+      "hiragana": "でりけーと",
+      "meaning": "섬세함, 민감함, 미묘함"
+    },
+    "word2": {
+      "kanji": "繊細・敏感・微妙",
+      "hiragana": "せんさい・びんかん・びみょう",
+      "meaning": "섬세함, 민감함, 미묘함"
+    }
+  },
+  {
+    "word1": { "kanji": "手分け", "hiragana": "てわけ", "meaning": "분담" },
+    "word2": { "kanji": "分担", "hiragana": "ぶんたん", "meaning": "분담" }
+  },
+  {
+    "word1": {
+      "kanji": "まるっきり・まったく",
+      "hiragana": "まるっきり・まったく",
+      "meaning": "전혀"
+    },
+    "word2": {
+      "kanji": "非常に・ 상당히",
+      "hiragana": "ひじょうに・ 상당히",
+      "meaning": "매우, 상당히"
+    }
+  },
+  {
+    "word1": { "kanji": "ふと", "hiragana": "ふと", "meaning": "얼핏, 문득" },
+    "word2": {
+      "kanji": "思いがけず",
+      "hiragana": "おもいがけず",
+      "meaning": "뜻밖에"
+    }
+  },
+  {
+    "word1": { "kanji": "ファイト", "hiragana": "ふぁいと", "meaning": "투지" },
+    "word2": {
+      "kanji": "意気込み",
+      "hiragana": "いきごみ",
+      "meaning": "패기, 의욕"
+    }
+  },
+  {
+    "word1": { "kanji": "当然", "hiragana": "とうぜん", "meaning": "당연" },
+    "word2": {
+      "kanji": "あたりまえ",
+      "hiragana": "あたりまえ",
+      "meaning": "당연함"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "当面な",
+      "hiragana": "とうめんな",
+      "meaning": "당분간 없다"
+    },
+    "word2": {
+      "kanji": "しばらくはない",
+      "hiragana": "しばらくはない",
+      "meaning": "당분간 없다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "独裁的な",
+      "hiragana": "どくさいてきな",
+      "meaning": "독재적인"
+    },
+    "word2": {
+      "kanji": "ワンマン",
+      "hiragana": "わんまん",
+      "meaning": "원맨, 독재적인 사람"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "ターゲット",
+      "hiragana": "たーげっと",
+      "meaning": "목표, 표적"
+    },
+    "word2": { "kanji": "目標", "hiragana": "もくひょう", "meaning": "목표" }
+  },
+  {
+    "word1": { "kanji": "巨匠", "hiragana": "きょしょう", "meaning": "거장" },
+    "word2": { "kanji": "大家", "hiragana": "たいか", "meaning": "대가, 거장" }
+  },
+  {
+    "word1": {
+      "kanji": "だいたい",
+      "hiragana": "だいたい",
+      "meaning": "대체로, 대략"
+    },
+    "word2": {
+      "kanji": "大体",
+      "hiragana": "だいたい",
+      "meaning": "대체로, 대략"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "立ち向かう",
+      "hiragana": "たちむかう",
+      "meaning": "맞서다, 대처하다"
+    },
+    "word2": {
+      "kanji": "向かう",
+      "hiragana": "むかう",
+      "meaning": "향하다, 맞서다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "仕組む",
+      "hiragana": "しくむ",
+      "meaning": "계획하다, 꾸미다"
+    },
+    "word2": {
+      "kanji": "計画する",
+      "hiragana": "けいかくする",
+      "meaning": "계획하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "よけいなもの",
+      "hiragana": "よけいなもの",
+      "meaning": "쓸데없는 것"
+    },
+    "word2": {
+      "kanji": "不要なもの",
+      "hiragana": "ふようなもの",
+      "meaning": "불필요한 것"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "近寄る",
+      "hiragana": "ちかよる",
+      "meaning": "다가가다"
+    },
+    "word2": {
+      "kanji": "訪れる",
+      "hiragana": "おとずれる",
+      "meaning": "방문하다"
+    }
+  },
+  {
+    "word1": { "kanji": "上手", "hiragana": "じょうず", "meaning": "능숙함" },
+    "word2": {
+      "kanji": "すこやか",
+      "hiragana": "すこやか",
+      "meaning": "건강함"
+    }
+  },
+  {
+    "word1": { "kanji": "原則", "hiragana": "げんそく", "meaning": "원칙" },
+    "word2": { "kanji": "基本", "hiragana": "きほん", "meaning": "기본" }
+  },
+  {
+    "word1": {
+      "kanji": "ぶかぶか",
+      "hiragana": "ぶかぶか",
+      "meaning": "헐렁헐렁함"
+    },
+    "word2": {
+      "kanji": "だぶだぶ",
+      "hiragana": "だぶだぶ",
+      "meaning": "헐렁헐렁함"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "損害",
+      "hiragana": "そんがい",
+      "meaning": "손해, 피해"
+    },
+    "word2": { "kanji": "打撃", "hiragana": "だげき", "meaning": "타격" }
+  },
+  {
+    "word1": { "kanji": "手紙", "hiragana": "てがみ", "meaning": "편지" },
+    "word2": {
+      "kanji": "書簡",
+      "hiragana": "しょかん",
+      "meaning": "서간, 편지"
+    }
+  },
+  {
+    "word1": { "kanji": "決して", "hiragana": "けっして", "meaning": "결코" },
+    "word2": { "kanji": "必ず", "hiragana": "かならず", "meaning": "반드시" }
+  },
+  {
+    "word1": {
+      "kanji": "諦める",
+      "hiragana": "あきらめる",
+      "meaning": "단념하다"
+    },
+    "word2": {
+      "kanji": "断念する",
+      "hiragana": "だんねんする",
+      "meaning": "단념하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "じっくりと",
+      "hiragana": "じっくりと",
+      "meaning": "곰곰이"
+    },
+    "word2": {
+      "kanji": "克明に",
+      "hiragana": "こくめいに",
+      "meaning": "극명하게, 꼼꼼하게"
+    }
+  },
+  {
+    "word1": { "kanji": "区切り", "hiragana": "くぎり", "meaning": "단락" },
+    "word2": { "kanji": "区分", "hiragana": "くぶん", "meaning": "구분" }
+  },
+  {
+    "word1": { "kanji": "度胸", "hiragana": "どきょう", "meaning": "담력" },
+    "word2": { "kanji": "胆力", "hiragana": "たんりょく", "meaning": "담력" }
+  },
+  {
+    "word1": {
+      "kanji": "第一人者",
+      "hiragana": "だいいちにんしゃ",
+      "meaning": "제1인자"
+    },
+    "word2": {
+      "kanji": "第一人者",
+      "hiragana": "だいいちにんしゃ",
+      "meaning": "제1인자"
+    }
+  },
+  {
+    "word1": { "kanji": "回復", "hiragana": "かいふく", "meaning": "회복" },
+    "word2": {
+      "kanji": "復活",
+      "hiragana": "ふっかつ",
+      "meaning": "부활, 회복"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "慎重だ",
+      "hiragana": "しんちょうだ",
+      "meaning": "신중하다"
+    },
+    "word2": {
+      "kanji": "用心深い",
+      "hiragana": "ようじんぶかい",
+      "meaning": "조심성이 많다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "未完成",
+      "hiragana": "みかんせい",
+      "meaning": "미완성"
+    },
+    "word2": { "kanji": "未完", "hiragana": "みかん", "meaning": "미완" }
+  },
+  {
+    "word1": {
+      "kanji": "山腹",
+      "hiragana": "さんぷく",
+      "meaning": "산의 중턱"
+    },
+    "word2": { "kanji": "中腹", "hiragana": "ちゅうふく", "meaning": "중턱" }
+  },
+  {
+    "word1": { "kanji": "スチーム", "hiragana": "すちーむ", "meaning": "증기" },
+    "word2": { "kanji": "蒸気", "hiragana": "じょうき", "meaning": "증기" }
+  },
+  {
+    "word1": {
+      "kanji": "ステップアップ",
+      "hiragana": "すてっぷあっぷ",
+      "meaning": "향상"
+    },
+    "word2": {
+      "kanji": "進歩・向上",
+      "hiragana": "しんぽ・こうじょう",
+      "meaning": "진보, 향상"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "ストーリー",
+      "hiragana": "すとーりー",
+      "meaning": "이야기"
+    },
+    "word2": { "kanji": "物語", "hiragana": "ものがたり", "meaning": "이야기" }
+  },
+  {
+    "word1": { "kanji": "ストック", "hiragana": "すとっく", "meaning": "재고" },
+    "word2": { "kanji": "在庫", "hiragana": "ざいこ", "meaning": "재고" }
+  },
+  {
+    "word1": {
+      "kanji": "ストレートに",
+      "hiragana": "すとれーとに",
+      "meaning": "직설적으로"
+    },
+    "word2": {
+      "kanji": "率直に",
+      "hiragana": "そっちょくに",
+      "meaning": "솔직하게"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "すばらしい",
+      "hiragana": "すばらしい",
+      "meaning": "훌륭하다, 굉장하다"
+    },
+    "word2": { "kanji": "偉い", "hiragana": "えらい", "meaning": "훌륭하다" }
+  },
+  {
+    "word1": {
+      "kanji": "スプリング",
+      "hiragana": "すぷりんぐ",
+      "meaning": "스프링, 용수철"
+    },
+    "word2": {
+      "kanji": "ばね",
+      "hiragana": "ばね",
+      "meaning": "스프링, 태엽, 용수철"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "スラックス",
+      "hiragana": "すらっくす",
+      "meaning": "슬랙스, 바지"
+    },
+    "word2": { "kanji": "ズボン", "hiragana": "ずぼん", "meaning": "바지" }
+  },
+  {
+    "word1": {
+      "kanji": "せかす／せかせる",
+      "hiragana": "せかす／せかせる",
+      "meaning": "재촉하다, 서두르게 하다"
+    },
+    "word2": {
+      "kanji": "催促する",
+      "hiragana": "さいそくする",
+      "meaning": "재촉하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "セキュリティー",
+      "hiragana": "せきゅりてぃー",
+      "meaning": "치안, 보안, 안전"
+    },
+    "word2": {
+      "kanji": "安全／保安",
+      "hiragana": "あんぜん／ほあん",
+      "meaning": "안전, 보안"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "セクション",
+      "hiragana": "せくしょん",
+      "meaning": "섹션, 분할"
+    },
+    "word2": { "kanji": "部門", "hiragana": "ぶもん", "meaning": "부문" }
+  },
+  {
+    "word1": {
+      "kanji": "せっかち",
+      "hiragana": "せっかち",
+      "meaning": "성급함"
+    },
+    "word2": { "kanji": "性急", "hiragana": "せいきゅう", "meaning": "성급함" }
+  },
+  {
+    "word1": {
+      "kanji": "アプローチ",
+      "hiragana": "あぷろーち",
+      "meaning": "접근"
+    },
+    "word2": { "kanji": "接近", "hiragana": "せっきん", "meaning": "접근" }
+  },
+  {
+    "word1": {
+      "kanji": "折衝",
+      "hiragana": "せっしょう",
+      "meaning": "교섭, 담판"
+    },
+    "word2": {
+      "kanji": "交渉／話し合い",
+      "hiragana": "こうしょう／はなしあい",
+      "meaning": "교섭, 대화"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "セレモニー",
+      "hiragana": "せれもにー",
+      "meaning": "세레모니, 의식"
+    },
+    "word2": { "kanji": "儀式", "hiragana": "ぎしき", "meaning": "의식" }
+  },
+  {
+    "word1": {
+      "kanji": "せわしい／多忙だ",
+      "hiragana": "せわしい／たぼうだ",
+      "meaning": "바쁘다, 다양하다"
+    },
+    "word2": {
+      "kanji": "忙しい",
+      "hiragana": "いそがしい",
+      "meaning": "바쁘다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "せんさい",
+      "hiragana": "せんさい",
+      "meaning": "섬세함"
+    },
+    "word2": {
+      "kanji": "デリケート",
+      "hiragana": "でりけーと",
+      "meaning": "섬세함"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "センス",
+      "hiragana": "せんす",
+      "meaning": "센스, 감각"
+    },
+    "word2": { "kanji": "感覚", "hiragana": "かんかく", "meaning": "감각" }
+  },
+  {
+    "word1": {
+      "kanji": "先だって",
+      "hiragana": "せんだって",
+      "meaning": "앞서, 얼마 전에, 요전에"
+    },
+    "word2": {
+      "kanji": "このあいだ",
+      "hiragana": "このあいだ",
+      "meaning": "요전에"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "先方",
+      "hiragana": "せんぽう",
+      "meaning": "상대방, 상대편, 저쪽"
+    },
+    "word2": { "kanji": "相手", "hiragana": "あいて", "meaning": "상대" }
+  },
+  {
+    "word1": { "kanji": "旋律", "hiragana": "せんりつ", "meaning": "선율" },
+    "word2": {
+      "kanji": "メロディー",
+      "hiragana": "めろでぃー",
+      "meaning": "멜로디"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "宗教を守る",
+      "hiragana": "しゅうきょうをまもる",
+      "meaning": "종교를 지키다"
+    },
+    "word2": {
+      "kanji": "信仰を守る",
+      "hiragana": "しんこうをまもる",
+      "meaning": "신앙을 지키다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "尽力する",
+      "hiragana": "じんりょくする",
+      "meaning": "진력하다"
+    },
+    "word2": {
+      "kanji": "努力する",
+      "hiragana": "どりょくする",
+      "meaning": "노력하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "失敗する",
+      "hiragana": "しっぱいする",
+      "meaning": "실패하다"
+    },
+    "word2": {
+      "kanji": "しくじる",
+      "hiragana": "しくじる",
+      "meaning": "실패하다, 실수하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "メカニズム",
+      "hiragana": "めかにずむ",
+      "meaning": "구조, 기구"
+    },
+    "word2": { "kanji": "構造", "hiragana": "こうぞう", "meaning": "구조" }
+  },
+  {
+    "word1": {
+      "kanji": "たくましい",
+      "hiragana": "たくましい",
+      "meaning": "씩씩하다, 굳세다"
+    },
+    "word2": { "kanji": "強い", "hiragana": "つよい", "meaning": "강하다" }
+  },
+  {
+    "word1": {
+      "kanji": "しぶとい",
+      "hiragana": "しぶとい",
+      "meaning": "끈질기다"
+    },
+    "word2": {
+      "kanji": "ねばり強い",
+      "hiragana": "ねばりづよい",
+      "meaning": "끈질기다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "ねたむ",
+      "hiragana": "ねたむ",
+      "meaning": "시기하다, 질투하다"
+    },
+    "word2": {
+      "kanji": "嫉妬する",
+      "hiragana": "しっとする",
+      "meaning": "질투하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "厳しい",
+      "hiragana": "きびしい",
+      "meaning": "엄격하다, 심하다"
+    },
+    "word2": {
+      "kanji": "厳格な",
+      "hiragana": "げんかくな",
+      "meaning": "엄격한"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "発送する",
+      "hiragana": "はっそうする",
+      "meaning": "발송하다"
+    },
+    "word2": {
+      "kanji": "送付する",
+      "hiragana": "そうふする",
+      "meaning": "송부하다"
+    }
+  },
+  {
+    "word1": { "kanji": "弁明", "hiragana": "べんめい", "meaning": "변명" },
+    "word2": { "kanji": "弁解", "hiragana": "べんかい", "meaning": "변명" }
+  },
+  {
+    "word1": {
+      "kanji": "いくらか",
+      "hiragana": "いくらか",
+      "meaning": "얼마간"
+    },
+    "word2": { "kanji": "多少", "hiragana": "たしょう", "meaning": "다소" }
+  },
+  {
+    "word1": { "kanji": "ずっと", "hiragana": "ずっと", "meaning": "계속" },
+    "word2": {
+      "kanji": "いつまでも",
+      "hiragana": "いつまでも",
+      "meaning": "언제까지나"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "死ぬときまで",
+      "hiragana": "しぬときまで",
+      "meaning": "죽을 때까지"
+    },
+    "word2": {
+      "kanji": "最期まで",
+      "hiragana": "さいごまで",
+      "meaning": "마지막까지"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "これまで",
+      "hiragana": "これまで",
+      "meaning": "지금까지"
+    },
+    "word2": {
+      "kanji": "今まで",
+      "hiragana": "いままで",
+      "meaning": "지금까지"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "いろいろ",
+      "hiragana": "いろいろ",
+      "meaning": "여러 가지"
+    },
+    "word2": {
+      "kanji": "さまざま",
+      "hiragana": "さまざま",
+      "meaning": "여러 가지"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "キャプテン",
+      "hiragana": "きゃぷてん",
+      "meaning": "캡틴, 주장"
+    },
+    "word2": {
+      "kanji": "統率者",
+      "hiragana": "とうそつしゃ",
+      "meaning": "통솔자"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "パトロール",
+      "hiragana": "ぱとろーる",
+      "meaning": "순찰"
+    },
+    "word2": { "kanji": "巡回", "hiragana": "じゅんかい", "meaning": "순찰" }
+  },
+  {
+    "word1": {
+      "kanji": "引き受ける",
+      "hiragana": "ひきうける",
+      "meaning": "떠맡다"
+    },
+    "word2": {
+      "kanji": "担当する",
+      "hiragana": "たんとうする",
+      "meaning": "담당하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "すじみち",
+      "hiragana": "すじみち",
+      "meaning": "사리, 조리"
+    },
+    "word2": { "kanji": "道理", "hiragana": "どうり", "meaning": "도리" }
+  },
+  {
+    "word1": {
+      "kanji": "刺激を受ける",
+      "hiragana": "しげきをうける",
+      "meaning": "자극을 받다"
+    },
+    "word2": {
+      "kanji": "影響を受ける",
+      "hiragana": "えいきょうをうける",
+      "meaning": "영향을 받다"
+    }
+  },
+  {
+    "word1": { "kanji": "どうせ", "hiragana": "どうせ", "meaning": "어차피" },
+    "word2": { "kanji": "結局", "hiragana": "けっきょく", "meaning": "결국" }
+  },
+  {
+    "word1": {
+      "kanji": "考え／つもり",
+      "hiragana": "かんがえ／つもり",
+      "meaning": "생각, 작정"
+    },
+    "word2": { "kanji": "意図", "hiragana": "いと", "meaning": "의도" }
+  },
+  {
+    "word1": { "kanji": "いつも", "hiragana": "いつも", "meaning": "언제나" },
+    "word2": { "kanji": "常に", "hiragana": "つねに", "meaning": "항상" }
+  },
+  {
+    "word1": { "kanji": "前置き", "hiragana": "まえおき", "meaning": "서론" },
+    "word2": { "kanji": "序論", "hiragana": "じょろん", "meaning": "서론" }
+  },
+  {
+    "word1": {
+      "kanji": "後退する",
+      "hiragana": "こうたいする",
+      "meaning": "후퇴하다"
+    },
+    "word2": {
+      "kanji": "退く",
+      "hiragana": "しりぞく",
+      "meaning": "물러나다, 후퇴하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "分類する",
+      "hiragana": "ぶんるいする",
+      "meaning": "분류하다"
+    },
+    "word2": {
+      "kanji": "区分する",
+      "hiragana": "くぶんする",
+      "meaning": "구분하다"
+    }
+  },
+  {
+    "word1": { "kanji": "真面目", "hiragana": "まじめ", "meaning": "성실함" },
+    "word2": { "kanji": "真剣", "hiragana": "しんけん", "meaning": "진지함" }
+  },
+  {
+    "word1": {
+      "kanji": "すみやかに",
+      "hiragana": "すみやかに",
+      "meaning": "신속하게"
+    },
+    "word2": {
+      "kanji": "迅速に",
+      "hiragana": "じんそくに",
+      "meaning": "신속하게"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "進捗する",
+      "hiragana": "しんちょくする",
+      "meaning": "진척되다"
+    },
+    "word2": {
+      "kanji": "順調に進む",
+      "hiragana": "じゅんちょうにすすむ",
+      "meaning": "순조롭게 진행되다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "後退する",
+      "hiragana": "こうたいする",
+      "meaning": "퇴각하다, 후퇴하다"
+    },
+    "word2": {
+      "kanji": "退却する",
+      "hiragana": "たいきゃくする",
+      "meaning": "퇴각하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "支える",
+      "hiragana": "ささえる",
+      "meaning": "지탱하다, 버티다"
+    },
+    "word2": {
+      "kanji": "持ちこたえる",
+      "hiragana": "もちこたえる",
+      "meaning": "버티다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "ごまかす",
+      "hiragana": "ごまかす",
+      "meaning": "속이다"
+    },
+    "word2": {
+      "kanji": "だます・いつわる",
+      "hiragana": "だます・いつわる",
+      "meaning": "속이다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "こまかい",
+      "hiragana": "こまかい",
+      "meaning": "자세하다"
+    },
+    "word2": {
+      "kanji": "詳しく・詳細に",
+      "hiragana": "くわしく・しょうさいに",
+      "meaning": "자세하게"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "コミッション",
+      "hiragana": "こみっしょん",
+      "meaning": "커미션, 수수료"
+    },
+    "word2": {
+      "kanji": "手数料",
+      "hiragana": "てすうりょう",
+      "meaning": "수수료"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "コメディ",
+      "hiragana": "こめでぃ",
+      "meaning": "코미디"
+    },
+    "word2": { "kanji": "喜劇", "hiragana": "きげき", "meaning": "희극" }
+  },
+  {
+    "word1": {
+      "kanji": "コンディション",
+      "hiragana": "こんでぃしょん",
+      "meaning": "컨디션"
+    },
+    "word2": {
+      "kanji": "体調・体の具合",
+      "hiragana": "たいちょう・からだのぐあい",
+      "meaning": "몸의 상태, 컨디션"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "コンテスト",
+      "hiragana": "こんてすと",
+      "meaning": "콘테스트, 대회"
+    },
+    "word2": {
+      "kanji": "競技会・コンクール",
+      "hiragana": "きょうぎかい・こんくーる",
+      "meaning": "경연 대회"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "コントラスト",
+      "hiragana": "こんとらすと",
+      "meaning": "콘트라스트, 대비"
+    },
+    "word2": {
+      "kanji": "対比・対照",
+      "hiragana": "たいひ・たいしょう",
+      "meaning": "대조"
+    }
+  },
+  {
+    "word1": { "kanji": "差", "hiragana": "さ", "meaning": "차, 차이" },
+    "word2": { "kanji": "違い", "hiragana": "ちがい", "meaning": "차이" }
+  },
+  {
+    "word1": {
+      "kanji": "栄える",
+      "hiragana": "さかえる",
+      "meaning": "번영하다"
+    },
+    "word2": {
+      "kanji": "繁栄する",
+      "hiragana": "はんえいする",
+      "meaning": "번영하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "先立つ",
+      "hiragana": "さきだつ",
+      "meaning": "앞서다, 선행하다"
+    },
+    "word2": { "kanji": "先に", "hiragana": "さきに", "meaning": "먼저" }
+  },
+  {
+    "word1": { "kanji": "指示", "hiragana": "しじ", "meaning": "지시, 지령" },
+    "word2": {
+      "kanji": "指示する・指揮",
+      "hiragana": "しじする・しき",
+      "meaning": "지시하다, 지휘"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "幸い",
+      "hiragana": "さいわい",
+      "meaning": "다행, 행운"
+    },
+    "word2": {
+      "kanji": "たしかに",
+      "hiragana": "たしかに",
+      "meaning": "확실히"
+    }
+  },
+  {
+    "word1": { "kanji": "雑談", "hiragana": "ざつだん", "meaning": "잡담" },
+    "word2": {
+      "kanji": "おしゃべり",
+      "hiragana": "おしゃべり",
+      "meaning": "수다, 잡담"
+    }
+  },
+  {
+    "word1": { "kanji": "雑務", "hiragana": "ざつむ", "meaning": "잡무, 잡일" },
+    "word2": { "kanji": "雑用", "hiragana": "ざつよう", "meaning": "잡일" }
+  },
+  {
+    "word1": {
+      "kanji": "サポート",
+      "hiragana": "さぽーと",
+      "meaning": "서포트, 지원, 원조"
+    },
+    "word2": {
+      "kanji": "バックアップ・支持・援助",
+      "hiragana": "ばっくあっぷ・しじ・えんじょ",
+      "meaning": "백업, 지원, 원조"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "山頂",
+      "hiragana": "さんちょう",
+      "meaning": "산꼭대기"
+    },
+    "word2": {
+      "kanji": "頂",
+      "hiragana": "いただき",
+      "meaning": "정상, 산꼭대기"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "シークレット",
+      "hiragana": "しーくれっと",
+      "meaning": "시크릿, 비밀"
+    },
+    "word2": { "kanji": "秘密", "hiragana": "ひみつ", "meaning": "비밀" }
+  },
+  {
+    "word1": {
+      "kanji": "仕返し",
+      "hiragana": "しかえし",
+      "meaning": "보복, 복수"
+    },
+    "word2": {
+      "kanji": "復讐・リベンジ",
+      "hiragana": "ふくしゅう・りべんじ",
+      "meaning": "복수"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "仕掛ける",
+      "hiragana": "しかける",
+      "meaning": "걸다, 설치하다"
+    },
+    "word2": {
+      "kanji": "いどむ・セットする",
+      "hiragana": "いどむ・せっとする",
+      "meaning": "걸다, 설치하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "しからに",
+      "hiragana": "しからに",
+      "meaning": "그런데, 그럼에도 불구하고"
+    },
+    "word2": {
+      "kanji": "ところが・にもかかわらず",
+      "hiragana": "ところが・にもかかわらず",
+      "meaning": "그런데, 그럼에도 불구하고"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "しきたり",
+      "hiragana": "しきたり",
+      "meaning": "관례, 관례"
+    },
+    "word2": {
+      "kanji": "ならわし・先例",
+      "hiragana": "ならわし・せんれい",
+      "meaning": "관례, 선례"
+    }
+  },
+  {
+    "word1": { "kanji": "治療", "hiragana": "ちりょう", "meaning": "치료" },
+    "word2": { "kanji": "介護", "hiragana": "かいご", "meaning": "간호" }
+  },
+  {
+    "word1": { "kanji": "麻酔", "hiragana": "ますい", "meaning": "마취" },
+    "word2": {
+      "kanji": "麻酔薬",
+      "hiragana": "ますいやく",
+      "meaning": "마취제"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "用途",
+      "hiragana": "ようと",
+      "meaning": "용도, 쓰임, 조치"
+    },
+    "word2": { "kanji": "用途", "hiragana": "ようと", "meaning": "용도" }
+  },
+  {
+    "word1": {
+      "kanji": "未経験",
+      "hiragana": "みけいけん",
+      "meaning": "미경험"
+    },
+    "word2": {
+      "kanji": "未体験",
+      "hiragana": "みたいけん",
+      "meaning": "미체험"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "めぐみ",
+      "hiragana": "めぐみ",
+      "meaning": "은혜, 은총"
+    },
+    "word2": { "kanji": "恩恵", "hiragana": "おんけい", "meaning": "은혜" }
+  },
+  {
+    "word1": {
+      "kanji": "さすける",
+      "hiragana": "さすける",
+      "meaning": "건네다, 건네주다"
+    },
+    "word2": { "kanji": "渡す", "hiragana": "わたす", "meaning": "건네주다" }
+  },
+  {
+    "word1": {
+      "kanji": "ルート",
+      "hiragana": "るーと",
+      "meaning": "루트, 경로"
+    },
+    "word2": { "kanji": "経路", "hiragana": "けいろ", "meaning": "경로" }
+  },
+  {
+    "word1": { "kanji": "騎士", "hiragana": "きし", "meaning": "기사" },
+    "word2": { "kanji": "武士", "hiragana": "ぶし", "meaning": "무사" }
+  },
+  {
+    "word1": {
+      "kanji": "未上長",
+      "hiragana": "みじょうちょう",
+      "meaning": "미상장"
+    },
+    "word2": {
+      "kanji": "未上場",
+      "hiragana": "みじょうじょう",
+      "meaning": "미상장"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "悪く言われる",
+      "hiragana": "わるくいわれる",
+      "meaning": "나쁜 말을 듣다"
+    },
+    "word2": { "kanji": "悪口", "hiragana": "わるくち", "meaning": "욕, 험담" }
+  },
+  {
+    "word1": {
+      "kanji": "心配・気がかり",
+      "hiragana": "しんぱい・きがかり",
+      "meaning": "걱정"
+    },
+    "word2": { "kanji": "不安", "hiragana": "ふあん", "meaning": "불안" }
+  },
+  {
+    "word1": {
+      "kanji": "しっかり",
+      "hiragana": "しっかり",
+      "meaning": "단단히, 아주"
+    },
+    "word2": {
+      "kanji": "きちんと",
+      "hiragana": "きちんと",
+      "meaning": "정확히, 깔끔히"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "すこやか",
+      "hiragana": "すこやか",
+      "meaning": "건강한"
+    },
+    "word2": { "kanji": "健やか", "hiragana": "すこやか", "meaning": "건강한" }
+  },
+  {
+    "word1": {
+      "kanji": "おさむ",
+      "hiragana": "おさむ",
+      "meaning": "임무, 의무"
+    },
+    "word2": { "kanji": "義務", "hiragana": "ぎむ", "meaning": "의무" }
+  },
+  {
+    "word1": {
+      "kanji": "頭脳皮質",
+      "hiragana": "ずのうひしつ",
+      "meaning": "천연피디"
+    },
+    "word2": {
+      "kanji": "ずずうしい",
+      "hiragana": "ずずうしい",
+      "meaning": "뻔뻔하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "エレガント",
+      "hiragana": "えれがんと",
+      "meaning": "고상함"
+    },
+    "word2": { "kanji": "高尚", "hiragana": "こうしょう", "meaning": "고상함" }
+  },
+  {
+    "word1": {
+      "kanji": "言い合い・口げんか",
+      "hiragana": "いいあい・くちげんか",
+      "meaning": "언쟁"
+    },
+    "word2": { "kanji": "口論", "hiragana": "こうろん", "meaning": "언쟁" }
+  },
+  {
+    "word1": {
+      "kanji": "打ち明ける",
+      "hiragana": "うちあける",
+      "meaning": "고백하다"
+    },
+    "word2": {
+      "kanji": "告白する",
+      "hiragana": "こくはくする",
+      "meaning": "고백하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "丹念に",
+      "hiragana": "たんねんに",
+      "meaning": "세밀하게"
+    },
+    "word2": { "kanji": "まめに", "hiragana": "まめに", "meaning": "꼼꼼히" }
+  },
+  {
+    "word1": {
+      "kanji": "爽やかだ・すがすがしい",
+      "hiragana": "さわやかだ・すがすがしい",
+      "meaning": "상쾌하다"
+    },
+    "word2": {
+      "kanji": "清々しい",
+      "hiragana": "すがすがしい",
+      "meaning": "상쾌하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "心がけ",
+      "hiragana": "こころがけ",
+      "meaning": "마음가짐"
+    },
+    "word2": {
+      "kanji": "心持ち",
+      "hiragana": "こころもち",
+      "meaning": "마음가짐"
+    }
+  },
+  {
+    "word1": { "kanji": "覚悟", "hiragana": "かくご", "meaning": "각오" },
+    "word2": { "kanji": "決心", "hiragana": "けっしん", "meaning": "결심" }
+  },
+  {
+    "word1": {
+      "kanji": "不安だ",
+      "hiragana": "ふあんだ",
+      "meaning": "불안하다"
+    },
+    "word2": {
+      "kanji": "心配だ",
+      "hiragana": "しんぱいだ",
+      "meaning": "걱정이다"
+    }
+  },
+  {
+    "word1": { "kanji": "試み", "hiragana": "こころみ", "meaning": "시도" },
+    "word2": { "kanji": "試し", "hiragana": "ためし", "meaning": "시도" }
+  },
+  {
+    "word1": {
+      "kanji": "ミスプリント",
+      "hiragana": "みすぷりんと",
+      "meaning": "미스 프린트"
+    },
+    "word2": {
+      "kanji": "誤植",
+      "hiragana": "ごしょく",
+      "meaning": "오식, 오타"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "枝の先",
+      "hiragana": "えだのさき",
+      "meaning": "가지 끝"
+    },
+    "word2": { "kanji": "先端", "hiragana": "せんたん", "meaning": "끝, 선단" }
+  },
+  {
+    "word1": {
+      "kanji": "大げさに",
+      "hiragana": "おおげさに",
+      "meaning": "과장되게"
+    },
+    "word2": {
+      "kanji": "誇張して",
+      "hiragana": "こちょうして",
+      "meaning": "과장해서"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "ことごとく",
+      "hiragana": "ことごとく",
+      "meaning": "전부, 모두, 모조리"
+    },
+    "word2": { "kanji": "すべて", "hiragana": "すべて", "meaning": "전부" },
+    "word3": {
+      "kanji": "こぞって",
+      "hiragana": "こぞって",
+      "meaning": "빠짐없이"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "とりわけ・特別に",
+      "hiragana": "とりわけ・とくべつに",
+      "meaning": "특별히"
+    },
+    "word2": {
+      "kanji": "とても",
+      "hiragana": "とても",
+      "meaning": "매우, 대단히"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "手づる・つて",
+      "hiragana": "てづる・つて",
+      "meaning": "연줄"
+    },
+    "word2": { "kanji": "연줄", "hiragana": "연줄", "meaning": "연줄" }
+  },
+  {
+    "word1": {
+      "kanji": "こたわる",
+      "hiragana": "こたわる",
+      "meaning": "거절하다"
+    },
+    "word2": {
+      "kanji": "거절하다",
+      "hiragana": "거절하다",
+      "meaning": "거절하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "気掛かり",
+      "hiragana": "きがかり",
+      "meaning": "걱정, 근심, 염려"
+    },
+    "word2": {
+      "kanji": "心配",
+      "hiragana": "しんぱい",
+      "meaning": "걱정, 근심, 염려"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "気疲れ",
+      "hiragana": "きづかれ",
+      "meaning": "신경을 씀, 소소한 피로"
+    },
+    "word2": {
+      "kanji": "心労",
+      "hiragana": "しんろう",
+      "meaning": "신경을 씀, 근심, 염려"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "気競う",
+      "hiragana": "ききそう",
+      "meaning": "경쟁하다"
+    },
+    "word2": { "kanji": "競争", "hiragana": "きょうそう", "meaning": "경쟁" }
+  },
+  {
+    "word1": { "kanji": "兆し", "hiragana": "きざし", "meaning": "조짐, 전조" },
+    "word2": {
+      "kanji": "兆候",
+      "hiragana": "ちょうこう",
+      "meaning": "징후, 전조"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "気違い",
+      "hiragana": "きちがい",
+      "meaning": "미친 사람, 정신이상자"
+    },
+    "word2": {
+      "kanji": "いやがらせ",
+      "hiragana": "いやがらせ",
+      "meaning": "괴롭힘, 방해함"
+    }
+  },
+  {
+    "word1": { "kanji": "頭痛", "hiragana": "ずつう", "meaning": "두통" },
+    "word2": { "kanji": "頭痛", "hiragana": "ずつう", "meaning": "두통" }
+  },
+  {
+    "word1": {
+      "kanji": "頭脳",
+      "hiragana": "ずのう",
+      "meaning": "두뇌, 명확히 생각하다"
+    },
+    "word2": { "kanji": "脳", "hiragana": "のう", "meaning": "뇌" }
+  },
+  {
+    "word1": { "kanji": "頭数", "hiragana": "あたまかず", "meaning": "머릿수" },
+    "word2": { "kanji": "人数", "hiragana": "にんずう", "meaning": "인원수" }
+  },
+  {
+    "word1": {
+      "kanji": "頭取",
+      "hiragana": "とうどり",
+      "meaning": "은행장, 명확히 총괄하다"
+    },
+    "word2": {
+      "kanji": "総裁",
+      "hiragana": "そうさい",
+      "meaning": "총재, 총괄"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "権力",
+      "hiragana": "けんりょく",
+      "meaning": "권력, 힘"
+    },
+    "word2": {
+      "kanji": "極力",
+      "hiragana": "きょくりょく",
+      "meaning": "극력, 힘껏"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "ギャップ",
+      "hiragana": "ぎゃっぷ",
+      "meaning": "갭, 차이"
+    },
+    "word2": { "kanji": "差異", "hiragana": "さい", "meaning": "차이" }
+  },
+  {
+    "word1": {
+      "kanji": "キャリア",
+      "hiragana": "きゃりあ",
+      "meaning": "캐리어, 경력"
+    },
+    "word2": { "kanji": "経歴", "hiragana": "けいれき", "meaning": "경력" }
+  },
+  {
+    "word1": { "kanji": "競馬", "hiragana": "けいば", "meaning": "경마" },
+    "word2": { "kanji": "レース", "hiragana": "れーす", "meaning": "레이스" }
+  },
+  {
+    "word1": {
+      "kanji": "巨匠",
+      "hiragana": "きょしょう",
+      "meaning": "거장, 예술가의 대가"
+    },
+    "word2": { "kanji": "大家", "hiragana": "たいか", "meaning": "대가, 거장" }
+  },
+  {
+    "word1": {
+      "kanji": "切り捨てる",
+      "hiragana": "きりすてる",
+      "meaning": "잘라 버리다"
+    },
+    "word2": {
+      "kanji": "削減する",
+      "hiragana": "さくげんする",
+      "meaning": "삭감하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "極寒",
+      "hiragana": "ごっかん",
+      "meaning": "극한의 추위"
+    },
+    "word2": {
+      "kanji": "非常に",
+      "hiragana": "ひじょうに",
+      "meaning": "대단히, 매우"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "極めて",
+      "hiragana": "きわめて",
+      "meaning": "극히, 매우, 더없이"
+    },
+    "word2": {
+      "kanji": "非常に",
+      "hiragana": "ひじょうに",
+      "meaning": "대단히, 매우"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "クール",
+      "hiragana": "くーる",
+      "meaning": "쿨함, 냉정함"
+    },
+    "word2": { "kanji": "冷静", "hiragana": "れいせい", "meaning": "냉정함" }
+  },
+  {
+    "word1": {
+      "kanji": "くじける",
+      "hiragana": "くじける",
+      "meaning": "기세가 꺾이다"
+    },
+    "word2": { "kanji": "ひるむ", "hiragana": "ひるむ", "meaning": "주눅들다" }
+  },
+  {
+    "word1": {
+      "kanji": "くじ引き",
+      "hiragana": "くじびき",
+      "meaning": "제비뽑기, 추첨"
+    },
+    "word2": { "kanji": "抽選", "hiragana": "ちゅうせん", "meaning": "추첨" }
+  },
+  {
+    "word1": {
+      "kanji": "朽ちる",
+      "hiragana": "くちる",
+      "meaning": "썩다, 쇠퇴하다"
+    },
+    "word2": {
+      "kanji": "衰える",
+      "hiragana": "おとろえる",
+      "meaning": "쇠퇴하다"
+    }
+  },
+  {
+    "word1": { "kanji": "屈指", "hiragana": "くっし", "meaning": "손꼽힘" },
+    "word2": {
+      "kanji": "有数・指折り",
+      "hiragana": "ゆうすう・ゆびおり",
+      "meaning": "손꼽힘"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "くつろぐ",
+      "hiragana": "くつろぐ",
+      "meaning": "편히 쉬다, 휴식하다"
+    },
+    "word2": {
+      "kanji": "のんびりと楽にする",
+      "hiragana": "のんびりとらくにする",
+      "meaning": "한가로이 편하게 있다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "首飾り",
+      "hiragana": "くびかざり",
+      "meaning": "목걸이"
+    },
+    "word2": {
+      "kanji": "ネックレス",
+      "hiragana": "ねっくれす",
+      "meaning": "목걸이"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "玄人",
+      "hiragana": "くろうと",
+      "meaning": "전문가, 숙련자"
+    },
+    "word2": {
+      "kanji": "プロ・専門家",
+      "hiragana": "ぷろ・せんもんか",
+      "meaning": "프로, 전문가"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "企て",
+      "hiragana": "くわだて",
+      "meaning": "계획, 기도"
+    },
+    "word2": { "kanji": "計画", "hiragana": "けいかく", "meaning": "계획" }
+  },
+  {
+    "word1": {
+      "kanji": "カードマン",
+      "hiragana": "かーどまん",
+      "meaning": "카드 회원"
+    },
+    "word2": { "kanji": "会員", "hiragana": "かいいん", "meaning": "회원" }
+  },
+  {
+    "word1": {
+      "kanji": "解除する",
+      "hiragana": "かいじょする",
+      "meaning": "해제하다"
+    },
+    "word2": {
+      "kanji": "取り消す",
+      "hiragana": "とりけす",
+      "meaning": "취소하다"
+    }
+  },
+  {
+    "word1": { "kanji": "改良", "hiragana": "かいりょう", "meaning": "개량" },
+    "word2": { "kanji": "改善", "hiragana": "かいぜん", "meaning": "개선" }
+  },
+  {
+    "word1": {
+      "kanji": "快適な",
+      "hiragana": "かいてきな",
+      "meaning": "쾌적한"
+    },
+    "word2": {
+      "kanji": "気持ちのよい",
+      "hiragana": "きもちのよい",
+      "meaning": "기분 좋은"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "回復する",
+      "hiragana": "かいふくする",
+      "meaning": "회복하다"
+    },
+    "word2": {
+      "kanji": "元に戻る",
+      "hiragana": "もとにもどる",
+      "meaning": "원래대로 돌아가다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "解放する",
+      "hiragana": "かいほうする",
+      "meaning": "해방하다"
+    },
+    "word2": {
+      "kanji": "自由にする",
+      "hiragana": "じゆうにする",
+      "meaning": "자유롭게 하다"
+    }
+  },
+  {
+    "word1": { "kanji": "概念", "hiragana": "がいねん", "meaning": "개념" },
+    "word2": { "kanji": "観念", "hiragana": "かんねん", "meaning": "관념" }
+  },
+  {
+    "word1": { "kanji": "外部", "hiragana": "がいぶ", "meaning": "외부" },
+    "word2": { "kanji": "外側", "hiragana": "そとがわ", "meaning": "바깥쪽" }
+  },
+  {
+    "word1": { "kanji": "会談", "hiragana": "かいだん", "meaning": "회담" },
+    "word2": {
+      "kanji": "話し合い",
+      "hiragana": "はなしあい",
+      "meaning": "상의, 협의"
+    }
+  },
+  {
+    "word1": { "kanji": "解答", "hiragana": "かいとう", "meaning": "해답" },
+    "word2": { "kanji": "答え", "hiragana": "こたえ", "meaning": "답" }
+  },
+  {
+    "word1": { "kanji": "解釈", "hiragana": "かいしゃく", "meaning": "해석" },
+    "word2": { "kanji": "説明", "hiragana": "せつめい", "meaning": "설명" }
+  },
+  {
+    "word1": { "kanji": "会社", "hiragana": "かいしゃ", "meaning": "회사" },
+    "word2": { "kanji": "企業", "hiragana": "きぎょう", "meaning": "기업" }
+  },
+  {
+    "word1": { "kanji": "回数", "hiragana": "かいすう", "meaning": "횟수" },
+    "word2": { "kanji": "度数", "hiragana": "どすう", "meaning": "도수" }
+  },
+  {
+    "word1": {
+      "kanji": "改善する",
+      "hiragana": "かいぜんする",
+      "meaning": "개선하다"
+    },
+    "word2": {
+      "kanji": "改良する",
+      "hiragana": "かいりょうする",
+      "meaning": "개량하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "快方に向かう",
+      "hiragana": "かいほうにむかう",
+      "meaning": "차도를 보이다"
+    },
+    "word2": {
+      "kanji": "良くなる",
+      "hiragana": "よくなる",
+      "meaning": "좋아지다"
+    }
+  },
+  {
+    "word1": { "kanji": "解明", "hiragana": "かいめい", "meaning": "해명" },
+    "word2": { "kanji": "説明", "hiragana": "せつめい", "meaning": "설명" }
+  },
+  {
+    "word1": {
+      "kanji": "会合",
+      "hiragana": "かいごう",
+      "meaning": "모임, 회합"
+    },
+    "word2": { "kanji": "集まり", "hiragana": "あつまり", "meaning": "집합" }
+  },
+  {
+    "word1": { "kanji": "外観", "hiragana": "がいかん", "meaning": "외관" },
+    "word2": { "kanji": "見かけ", "hiragana": "みかけ", "meaning": "겉모습" }
+  },
+  {
+    "word1": {
+      "kanji": "概略",
+      "hiragana": "がいりゃく",
+      "meaning": "개략, 대략"
+    },
+    "word2": { "kanji": "大まか", "hiragana": "おおまか", "meaning": "대략" }
+  },
+  {
+    "word1": {
+      "kanji": "外来語",
+      "hiragana": "がいらいご",
+      "meaning": "외래어"
+    },
+    "word2": {
+      "kanji": "借用語",
+      "hiragana": "しゃくようご",
+      "meaning": "차용어"
+    }
+  },
+  {
+    "word1": { "kanji": "外傷", "hiragana": "がいしょう", "meaning": "외상" },
+    "word2": { "kanji": "けが", "hiragana": "けが", "meaning": "상처" }
+  },
+  {
+    "word1": {
+      "kanji": "外相",
+      "hiragana": "がいしょう",
+      "meaning": "외무장관"
+    },
+    "word2": {
+      "kanji": "外務大臣",
+      "hiragana": "がいむだいじん",
+      "meaning": "외무대신"
+    }
+  },
+  {
+    "word1": { "kanji": "外食", "hiragana": "がいしょく", "meaning": "외식" },
+    "word2": {
+      "kanji": "外で食べる",
+      "hiragana": "そとでたべる",
+      "meaning": "밖에서 먹다"
+    }
+  },
+  {
+    "word1": { "kanji": "外出", "hiragana": "がいしゅつ", "meaning": "외출" },
+    "word2": {
+      "kanji": "出かける",
+      "hiragana": "でかける",
+      "meaning": "나가다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "外線",
+      "hiragana": "がいせん",
+      "meaning": "외선, 외부 전화"
+    },
+    "word2": {
+      "kanji": "外部電話",
+      "hiragana": "がいぶでんわ",
+      "meaning": "외부 전화"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "外相",
+      "hiragana": "がいしょう",
+      "meaning": "외무장관"
+    },
+    "word2": {
+      "kanji": "外務大臣",
+      "hiragana": "がいむだいじん",
+      "meaning": "외무대신"
+    }
+  },
+  {
+    "word1": { "kanji": "外泊", "hiragana": "がいはく", "meaning": "외박" },
+    "word2": {
+      "kanji": "家に帰らない",
+      "hiragana": "いえにかえらない",
+      "meaning": "집에 돌아가지 않다"
+    }
+  },
+  {
+    "word1": { "kanji": "外部", "hiragana": "がいぶ", "meaning": "외부" },
+    "word2": { "kanji": "外側", "hiragana": "そとがわ", "meaning": "바깥쪽" }
+  },
+  {
+    "word1": { "kanji": "外遊", "hiragana": "がいゆう", "meaning": "외유" },
+    "word2": {
+      "kanji": "外国へ行く",
+      "hiragana": "がいこくへいく",
+      "meaning": "외국에 가다"
+    }
+  },
+  {
+    "word1": { "kanji": "外来", "hiragana": "がいらい", "meaning": "외래" },
+    "word2": {
+      "kanji": "外から来る",
+      "hiragana": "そとからくる",
+      "meaning": "밖에서 오다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "魚付け",
+      "hiragana": "うおつけ",
+      "meaning": "확실한 증거, 확증임"
+    },
+    "word2": { "kanji": "証拠", "hiragana": "しょうこ", "meaning": "증거" }
+  },
+  {
+    "word1": {
+      "kanji": "裏腹",
+      "hiragana": "うらはら",
+      "meaning": "정반대, 역임"
+    },
+    "word2": {
+      "kanji": "あべこべ・逆",
+      "hiragana": "あべこべ・ぎゃく",
+      "meaning": "거꾸로임"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "慌てずに",
+      "hiragana": "あわてずに",
+      "meaning": "허둥대지 않고"
+    },
+    "word2": {
+      "kanji": "驚かずに",
+      "hiragana": "おどろかずに",
+      "meaning": "놀라지 않고"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "うろたえずに",
+      "hiragana": "うろたえずに",
+      "meaning": "당황하지 않고"
+    },
+    "word2": {
+      "kanji": "まごつかずに",
+      "hiragana": "まごつかずに",
+      "meaning": "허둥대지 않고"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "うんぬんする",
+      "hiragana": "うんぬんする",
+      "meaning": "자질구레하다"
+    },
+    "word2": {
+      "kanji": "前前から",
+      "hiragana": "まえまえから",
+      "meaning": "앞서서"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "エプロン",
+      "hiragana": "えぷろん",
+      "meaning": "앞치마"
+    },
+    "word2": { "kanji": "前かけ", "hiragana": "まえかけ", "meaning": "앞치마" }
+  },
+  {
+    "word1": {
+      "kanji": "エレガント",
+      "hiragana": "えれがんと",
+      "meaning": "우아함, 고상함"
+    },
+    "word2": {
+      "kanji": "優雅・高貴",
+      "hiragana": "ゆうが・こうき",
+      "meaning": "우아함, 고상함"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "円滑",
+      "hiragana": "えんかつ",
+      "meaning": "원활함, 매끄러움"
+    },
+    "word2": {
+      "kanji": "常滑かに・スムーズに",
+      "hiragana": "つねなめかに・すむーずに",
+      "meaning": "항상 매끄럽게, 스무스하게"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "縁起",
+      "hiragana": "えんぎ",
+      "meaning": "징조, 운세, 길흉"
+    },
+    "word2": {
+      "kanji": "シンクス・兆し・兆候",
+      "hiragana": "しんくす・きざし・ちょうこう",
+      "meaning": "징조, 전조, 징후"
+    }
+  },
+  {
+    "word1": { "kanji": "演技", "hiragana": "えんぎ", "meaning": "연기" },
+    "word2": {
+      "kanji": "手うち・コネ・つて",
+      "hiragana": "てうち・こね・つて",
+      "meaning": "연줄, 인맥, 수단"
+    }
+  },
+  {
+    "word1": { "kanji": "演奏", "hiragana": "えんそう", "meaning": "연주" },
+    "word2": {
+      "kanji": "演唱",
+      "hiragana": "えんしょう",
+      "meaning": "연창, 노래 부름"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "エンターテインメント",
+      "hiragana": "えんたーていんめんと",
+      "meaning": "엔터테인먼트, 오락, 연예"
+    },
+    "word2": {
+      "kanji": "娯楽・芸能",
+      "hiragana": "ごらく・げいのう",
+      "meaning": "오락, 예능"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "打ち打ちする",
+      "hiragana": "うちうちする",
+      "meaning": "구타하다"
+    },
+    "word2": { "kanji": "たたく", "hiragana": "たたく", "meaning": "때리다" }
+  },
+  {
+    "word1": { "kanji": "大方", "hiragana": "おおかた", "meaning": "거의" },
+    "word2": { "kanji": "ほぼ", "hiragana": "ほぼ", "meaning": "거의" }
+  },
+  {
+    "word1": {
+      "kanji": "オート매틱",
+      "hiragana": "おーとまてぃっく",
+      "meaning": "자동식"
+    },
+    "word2": {
+      "kanji": "自動的",
+      "hiragana": "じどうてき",
+      "meaning": "자동적"
+    }
+  },
+  {
+    "word1": { "kanji": "行き来", "hiragana": "いきき", "meaning": "왕래" },
+    "word2": { "kanji": "道筋", "hiragana": "みちすじ", "meaning": "도로, 길" }
+  },
+  {
+    "word1": {
+      "kanji": "おおまかに",
+      "hiragana": "おおまかに",
+      "meaning": "대략, 대강"
+    },
+    "word2": {
+      "kanji": "おおざっぱに",
+      "hiragana": "おおざっぱに",
+      "meaning": "대강, 대충"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "収まる",
+      "hiragana": "おさまる",
+      "meaning": "수습되다"
+    },
+    "word2": {
+      "kanji": "解決する",
+      "hiragana": "かいけつする",
+      "meaning": "해결되다"
+    }
+  },
+  {
+    "word1": { "kanji": "おさらい", "hiragana": "おさらい", "meaning": "복습" },
+    "word2": { "kanji": "復習", "hiragana": "ふくしゅう", "meaning": "복습" }
+  },
+  {
+    "word1": {
+      "kanji": "おっかない",
+      "hiragana": "おっかない",
+      "meaning": "무섭다, 두렵다"
+    },
+    "word2": {
+      "kanji": "面倒だ",
+      "hiragana": "めんどうだ",
+      "meaning": "귀찮다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "おっくうだ",
+      "hiragana": "おっくうだ",
+      "meaning": "저절로, 저항히"
+    },
+    "word2": {
+      "kanji": "どうしようもない",
+      "hiragana": "どうしようもない",
+      "meaning": "어찌할 도리가 없다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "お手上げだ",
+      "hiragana": "おてあげだ",
+      "meaning": "어찌할 도리가 없다"
+    },
+    "word2": {
+      "kanji": "お手上げだ",
+      "hiragana": "おてあげだ",
+      "meaning": "어찌할 도리가 없다"
+    }
+  },
+  {
+    "word1": { "kanji": "乙女", "hiragana": "おとめ", "meaning": "소녀, 처녀" },
+    "word2": { "kanji": "処女", "hiragana": "しょじょ", "meaning": "처녀" }
+  },
+  {
+    "word1": {
+      "kanji": "おずおずと",
+      "hiragana": "おずおずと",
+      "meaning": "머뭇머뭇, 주저함"
+    },
+    "word2": {
+      "kanji": "ひとりでに・自然に",
+      "hiragana": "ひとりでに・しぜんに",
+      "meaning": "저절로"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "精一杯",
+      "hiragana": "せいいっぱい",
+      "meaning": "힘껏"
+    },
+    "word2": {
+      "kanji": "精一杯",
+      "hiragana": "せいいっぱい",
+      "meaning": "힘껏"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "思い行分",
+      "hiragana": "おもいこうぶん",
+      "meaning": "마음껏, 힘껏"
+    },
+    "word2": {
+      "kanji": "思い切り",
+      "hiragana": "おもいきり",
+      "meaning": "마음껏"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "思うまま",
+      "hiragana": "おもうまま",
+      "meaning": "마음껏"
+    },
+    "word2": {
+      "kanji": "あじわい・情緒・感じ・様子",
+      "hiragana": "あじわい・じょうちょ・かんじ・ようす",
+      "meaning": "정취, 정서, 느낌, 모습"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "趣",
+      "hiragana": "おもむき",
+      "meaning": "재미, 정취, 멋"
+    },
+    "word2": {
+      "kanji": "情緒・感じ・様子",
+      "hiragana": "じょうちょ・かんじ・ようす",
+      "meaning": "정취, 느낌, 모습"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "面持ち",
+      "hiragana": "おももち",
+      "meaning": "표정, 안색"
+    },
+    "word2": {
+      "kanji": "表情・顔つき",
+      "hiragana": "ひょうじょう・かおつき",
+      "meaning": "표정, 안색"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "思惑",
+      "hiragana": "おもわく",
+      "meaning": "생각, 의도"
+    },
+    "word2": { "kanji": "意図", "hiragana": "いと", "meaning": "의도" }
+  },
+  {
+    "word1": {
+      "kanji": "おろそかに",
+      "hiragana": "おろそかに",
+      "meaning": "소홀히"
+    },
+    "word2": {
+      "kanji": "ぞんざいに",
+      "hiragana": "ぞんざいに",
+      "meaning": "아무렇게나"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "怨恨",
+      "hiragana": "えんこん",
+      "meaning": "원한, 원망"
+    },
+    "word2": { "kanji": "恨み", "hiragana": "うらみ", "meaning": "원한" }
+  },
+  {
+    "word1": { "kanji": "少しも", "hiragana": "すこしも", "meaning": "조금도" },
+    "word2": { "kanji": "全然", "hiragana": "ぜんぜん", "meaning": "전혀" }
+  },
+  {
+    "word1": { "kanji": "全然", "hiragana": "ぜんぜん", "meaning": "전혀" },
+    "word2": {
+      "kanji": "まるで",
+      "hiragana": "まるで",
+      "meaning": "전혀, 전혀"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "まるで",
+      "hiragana": "まるで",
+      "meaning": "전혀, 전혀"
+    },
+    "word2": {
+      "kanji": "かえって",
+      "hiragana": "かえって",
+      "meaning": "오히려"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "かたくな",
+      "hiragana": "かたくな",
+      "meaning": "완고하다"
+    },
+    "word2": { "kanji": "うそ", "hiragana": "うそ", "meaning": "거짓말" }
+  },
+  {
+    "word1": { "kanji": "正直", "hiragana": "しょうじき", "meaning": "정직" },
+    "word2": {
+      "kanji": "ごまかす",
+      "hiragana": "ごまかす",
+      "meaning": "속이다"
+    }
+  },
+  {
+    "word1": { "kanji": "ヒント", "hiragana": "ひんと", "meaning": "힌트" },
+    "word2": {
+      "kanji": "しかける",
+      "hiragana": "しかける",
+      "meaning": "걸다, 설치하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "非常に",
+      "hiragana": "ひじょうに",
+      "meaning": "상당히"
+    },
+    "word2": { "kanji": "とても", "hiragana": "とても", "meaning": "매우" }
+  },
+  {
+    "word1": {
+      "kanji": "となっては",
+      "hiragana": "となっては",
+      "meaning": "이제 와서"
+    },
+    "word2": {
+      "kanji": "いまさら",
+      "hiragana": "いまさら",
+      "meaning": "이제 와서, 새삼스럽게"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "皮肉",
+      "hiragana": "ひにく",
+      "meaning": "빈정거림, 비꼼"
+    },
+    "word2": { "kanji": "きざ", "hiragana": "きざ", "meaning": "의심스러움" }
+  },
+  {
+    "word1": {
+      "kanji": "あせる",
+      "hiragana": "あせる",
+      "meaning": "초조하다, 조급하다"
+    },
+    "word2": {
+      "kanji": "じじりじする",
+      "hiragana": "じじりじする",
+      "meaning": "안절부절하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "トーン・色調",
+      "hiragana": "とーん・しきちょう",
+      "meaning": "색조"
+    },
+    "word2": { "kanji": "面倒", "hiragana": "めんどう", "meaning": "귀찮음" }
+  },
+  {
+    "word1": {
+      "kanji": "無関心",
+      "hiragana": "むかんしん",
+      "meaning": "무관심"
+    },
+    "word2": { "kanji": "無情", "hiragana": "むじょう", "meaning": "무정" }
+  },
+  {
+    "word1": {
+      "kanji": "因果",
+      "hiragana": "いんが",
+      "meaning": "원인과 결과, 인과"
+    },
+    "word2": { "kanji": "捕える", "hiragana": "とらえる", "meaning": "붙잡다" }
+  },
+  {
+    "word1": {
+      "kanji": "内側",
+      "hiragana": "うちがわ",
+      "meaning": "안쪽, 내부"
+    },
+    "word2": {
+      "kanji": "ひらめき",
+      "hiragana": "ひらめき",
+      "meaning": "섬광, 번뜩 떠오름"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "うかがう",
+      "hiragana": "うかがう",
+      "meaning": "엿보다, 살피다, 노리다"
+    },
+    "word2": {
+      "kanji": "のぞく",
+      "hiragana": "のぞく",
+      "meaning": "엿보다, 들여다보다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "受かる",
+      "hiragana": "うかる",
+      "meaning": "붙다, 합격하다"
+    },
+    "word2": {
+      "kanji": "合格する",
+      "hiragana": "ごうかくする",
+      "meaning": "합격하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "受け持ち",
+      "hiragana": "うけもち",
+      "meaning": "담임, 담당"
+    },
+    "word2": { "kanji": "担任", "hiragana": "たんにん", "meaning": "담임" },
+    "word3": { "kanji": "担当", "hiragana": "たんとう", "meaning": "담당" }
+  },
+  {
+    "word1": {
+      "kanji": "告白する",
+      "hiragana": "こくはくする",
+      "meaning": "고백하다"
+    },
+    "word2": {
+      "kanji": "告白する",
+      "hiragana": "こくはくする",
+      "meaning": "고백하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "熱心に取り組む",
+      "hiragana": "ねっしんにとりくむ",
+      "meaning": "열심히 몰두하다"
+    },
+    "word2": {
+      "kanji": "熱中する",
+      "hiragana": "ねっちゅうする",
+      "meaning": "열중하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "うつうつ",
+      "hiragana": "うつうつ",
+      "meaning": "속이 텅 빔"
+    },
+    "word2": { "kanji": "から", "hiragana": "から", "meaning": "텅 빔" }
+  },
+  {
+    "word1": {
+      "kanji": "疎ましい",
+      "hiragana": "うとましい",
+      "meaning": "싫다, 역겹다"
+    },
+    "word2": { "kanji": "いやだ", "hiragana": "いやだ", "meaning": "싫다" }
+  },
+  {
+    "word1": {
+      "kanji": "うぬぼれる",
+      "hiragana": "うぬぼれる",
+      "meaning": "자만하다, 자부하다"
+    },
+    "word2": {
+      "kanji": "思い上がる",
+      "hiragana": "おもいあがる",
+      "meaning": "우쭐하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "あさましい",
+      "hiragana": "あさましい",
+      "meaning": "비열하다, 치사하다"
+    },
+    "word2": {
+      "kanji": "卑劣だ",
+      "hiragana": "ひれつだ",
+      "meaning": "비열하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "アシスタント",
+      "hiragana": "あしすたんと",
+      "meaning": "어시스턴트, 조수, 보조역"
+    },
+    "word2": { "kanji": "助手", "hiragana": "じょしゅ", "meaning": "조수" }
+  },
+  {
+    "word1": {
+      "kanji": "あたかも",
+      "hiragana": "あたかも",
+      "meaning": "마치, 흡사"
+    },
+    "word2": { "kanji": "まるで", "hiragana": "まるで", "meaning": "마치" }
+  },
+  {
+    "word1": {
+      "kanji": "後押し",
+      "hiragana": "あとおし",
+      "meaning": "지원, 후원, 조언"
+    },
+    "word2": { "kanji": "援助", "hiragana": "えんじょ", "meaning": "원조" }
+  },
+  {
+    "word1": {
+      "kanji": "後を継ぐ",
+      "hiragana": "あとをつぐ",
+      "meaning": "계승하다, 계보를 잇다"
+    },
+    "word2": {
+      "kanji": "継承する",
+      "hiragana": "けいしょうする",
+      "meaning": "계승하다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "アタッチメント",
+      "hiragana": "あたっちめんと",
+      "meaning": "애착, 애정, 부착물"
+    },
+    "word2": {
+      "kanji": "付属品",
+      "hiragana": "ふぞくひん",
+      "meaning": "부속품"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "あばれる",
+      "hiragana": "あばれる",
+      "meaning": "난폭하다, 날뛰다"
+    },
+    "word2": {
+      "kanji": "暴れる",
+      "hiragana": "あばれる",
+      "meaning": "난폭하다, 날뛰다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "アドバイス",
+      "hiragana": "あどばいす",
+      "meaning": "어드바이스, 충고, 조언"
+    },
+    "word2": { "kanji": "忠告", "hiragana": "ちゅうこく", "meaning": "충고" }
+  },
+  {
+    "word1": {
+      "kanji": "アナウンス",
+      "hiragana": "あなうんす",
+      "meaning": "아나운스, 알림"
+    },
+    "word2": { "kanji": "通知", "hiragana": "つうち", "meaning": "통지" }
+  },
+  {
+    "word1": {
+      "kanji": "アベレージ",
+      "hiragana": "あべれーじ",
+      "meaning": "평균"
+    },
+    "word2": { "kanji": "平均", "hiragana": "へいきん", "meaning": "평균" }
+  },
+  {
+    "word1": {
+      "kanji": "アマチュア",
+      "hiragana": "あまちゅあ",
+      "meaning": "아마추어, 비전문가"
+    },
+    "word2": { "kanji": "素人", "hiragana": "しろうと", "meaning": "비전문가" }
+  },
+  {
+    "word1": {
+      "kanji": "あまやかす",
+      "hiragana": "あまやかす",
+      "meaning": "응석을 받아주다, 어리광을 부리게 하다"
+    },
+    "word2": {
+      "kanji": "甘やかす",
+      "hiragana": "あまやかす",
+      "meaning": "응석을 받아주다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "あやふや",
+      "hiragana": "あやふや",
+      "meaning": "애매함, 불확실함"
+    },
+    "word2": { "kanji": "曖昧", "hiragana": "あいまい", "meaning": "애매함" }
+  },
+  {
+    "word1": {
+      "kanji": "あらかじめ",
+      "hiragana": "あらかじめ",
+      "meaning": "미리, 사전에"
+    },
+    "word2": {
+      "kanji": "前もって",
+      "hiragana": "まえもって",
+      "meaning": "미리"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "ありがち",
+      "hiragana": "ありがち",
+      "meaning": "흔히 있음, 자주 있음"
+    },
+    "word2": {
+      "kanji": "よくある",
+      "hiragana": "よくある",
+      "meaning": "자주 있다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "ありきたり",
+      "hiragana": "ありきたり",
+      "meaning": "평범함, 흔함, 진부함"
+    },
+    "word2": {
+      "kanji": "平凡な",
+      "hiragana": "へいぼんな",
+      "meaning": "평범한"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "合わせて",
+      "hiragana": "あわせて",
+      "meaning": "함께, 아울러"
+    },
+    "word2": { "kanji": "一緒に", "hiragana": "いっしょに", "meaning": "같이" }
+  },
+  {
+    "word1": {
+      "kanji": "安直",
+      "hiragana": "あんちょく",
+      "meaning": "손쉬움, 간편함"
+    },
+    "word2": { "kanji": "簡単", "hiragana": "かんたん", "meaning": "간단함" }
+  },
+  {
+    "word1": {
+      "kanji": "案の定",
+      "hiragana": "あんのじょう",
+      "meaning": "아니나 다를까, 생각한 대로"
+    },
+    "word2": { "kanji": "やはり", "hiragana": "やはり", "meaning": "역시" }
+  },
+  {
+    "word1": {
+      "kanji": "言い合い",
+      "hiragana": "いいあい",
+      "meaning": "언쟁, 말다툼"
+    },
+    "word2": { "kanji": "口論", "hiragana": "こうろん", "meaning": "말다툼" }
+  },
+  {
+    "word1": {
+      "kanji": "いいかげん",
+      "hiragana": "いいかげん",
+      "meaning": "무책임, 엉터리임"
+    },
+    "word2": {
+      "kanji": "でたらめ",
+      "hiragana": "でたらめ",
+      "meaning": "엉터리"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "いかに",
+      "hiragana": "いかに",
+      "meaning": "어떻게, 아무리"
+    },
+    "word2": {
+      "kanji": "どのように",
+      "hiragana": "どのように",
+      "meaning": "어떻게"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "いかほど",
+      "hiragana": "いかほど",
+      "meaning": "얼마나"
+    },
+    "word2": {
+      "kanji": "どれほど",
+      "hiragana": "どれほど",
+      "meaning": "얼마나"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "いきさつ",
+      "hiragana": "いきさつ",
+      "meaning": "경위, (일의) 사정"
+    },
+    "word2": { "kanji": "経緯", "hiragana": "けいい", "meaning": "경위" }
+  },
+  {
+    "word1": {
+      "kanji": "怒り",
+      "hiragana": "いかり",
+      "meaning": "분개하다, 성내다, 노하다"
+    },
+    "word2": { "kanji": "いかる", "hiragana": "いかる", "meaning": "분개하다" }
+  },
+  {
+    "word1": {
+      "kanji": "一休み",
+      "hiragana": "ひとやすみ",
+      "meaning": "잠깐 쉼"
+    },
+    "word2": { "kanji": "休息", "hiragana": "きゅうそく", "meaning": "휴식" }
+  },
+  {
+    "word1": {
+      "kanji": "いじくる",
+      "hiragana": "いじくる",
+      "meaning": "만지작거리다"
+    },
+    "word2": {
+      "kanji": "すくむ",
+      "hiragana": "すくむ",
+      "meaning": "움츠러지다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "いじける",
+      "hiragana": "いじける",
+      "meaning": "위축되다"
+    },
+    "word2": {
+      "kanji": "すくむ",
+      "hiragana": "すくむ",
+      "meaning": "움츠러지다"
+    }
+  },
+  {
+    "word1": {
+      "kanji": "いただき",
+      "hiragana": "いただき",
+      "meaning": "산 따위의 꼭대기, 정상"
+    },
+    "word2": { "kanji": "頂上", "hiragana": "ちょうじょう", "meaning": "정상" }
+  },
+  {
+    "word1": {
+      "kanji": "いたって",
+      "hiragana": "いたって",
+      "meaning": "지극히, 매우, 대단히"
+    },
+    "word2": { "kanji": "非常に", "hiragana": "ひじょうに", "meaning": "매우" }
+  }
+]

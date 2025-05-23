@@ -1,19 +1,17 @@
 <template>
   <div class="word-card">
-    <div class="kanji-block">
-      <span class="kanji">{{ word.kanji }}</span>
-      <span class="reading">{{ word.hiragana }}</span>
-      <span class="meaning">{{ word.meaning }}</span>
+    <div class="synonym-pair">
+      <div class="word-item">
+        <span class="kanji">{{ word.word1.kanji }}</span>
+        <span class="hiragana">({{ word.word1.hiragana }})</span>
+      </div>
+      <span class="symbol">≒</span>
+      <div class="word-item">
+        <span class="kanji">{{ word.word2.kanji }}</span>
+        <span class="hiragana">({{ word.word2.hiragana }})</span>
+      </div>
     </div>
-    <div class="btn-group">
-      <button
-        class="fav-btn"
-        :class="{ active: isFavorite }"
-        @click="toggleFavorite"
-      >
-        {{ isFavorite ? '★ 즐겨찾기 해제' : '☆ 즐겨찾기' }}
-      </button>
-    </div>
+    <div class="meaning">{{ word.word1.meaning }}</div>
   </div>
 </template>
 
@@ -27,20 +25,6 @@ export default {
     favorites: {
       type: Array,
       default: () => [],
-    },
-  },
-  computed: {
-    isFavorite() {
-      return this.favorites.some(f => f.kanji === this.word.kanji);
-    },
-  },
-  methods: {
-    toggleFavorite() {
-      this.$emit('toggle-favorite', {
-        kanji: this.word.kanji,
-        hiragana: this.word.hiragana,
-        meaning: this.word.meaning,
-      });
     },
   },
 };
@@ -61,6 +45,22 @@ export default {
   flex-direction: column;
   align-items: center;
   margin-bottom: 0.7em;
+}
+.synonym-pair {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+  margin-bottom: 1.2em;
+}
+.word-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+.symbol {
+  font-size: 2em;
+  color: var(--accent);
 }
 .kanji {
   font-size: 2.8rem;

@@ -1,0 +1,442 @@
+[
+  {
+    "kanji": "ありのままに",
+    "hiragana": "ありのままに",
+    "meaning": "있는 그대로, 사실대로"
+  },
+  {
+    "kanji": "いざ",
+    "hiragana": "いざ",
+    "meaning": "자, 이제, 막상"
+  },
+  {
+    "kanji": "いっさい",
+    "hiragana": "いっさい",
+    "meaning": "일절, 전혀, 모두"
+  },
+  {
+    "kanji": "いまだに",
+    "hiragana": "いまだに",
+    "meaning": "아직도"
+  },
+  {
+    "kanji": "いまさら",
+    "hiragana": "いまさら",
+    "meaning": "이제 와서, 새삼스럽게"
+  },
+  {
+    "kanji": "いやに",
+    "hiragana": "いやに",
+    "meaning": "몹시, 지독히, 매우"
+  },
+  {
+    "kanji": "うんと",
+    "hiragana": "うんと",
+    "meaning": "많이, 아주, 빈틈없이"
+  },
+  {
+    "kanji": "おおいに",
+    "hiragana": "おおいに",
+    "meaning": "대단히, 매우"
+  },
+  {
+    "kanji": "おそくとも",
+    "hiragana": "おそくとも",
+    "meaning": "늦어도"
+  },
+  {
+    "kanji": "かねて",
+    "hiragana": "かねて",
+    "meaning": "미리, 전부터"
+  },
+  {
+    "kanji": "きっちり",
+    "hiragana": "きっちり",
+    "meaning": "딱, 정확히, 빈틈없이"
+  },
+  {
+    "kanji": "きらり",
+    "hiragana": "きらり",
+    "meaning": "번쩍(작게)"
+  },
+  {
+    "kanji": "くさめに",
+    "hiragana": "くさめに",
+    "meaning": "구석구석까지, 완전히"
+  },
+  {
+    "kanji": "くっきり",
+    "hiragana": "くっきり",
+    "meaning": "뚜렷이, 선명하게"
+  },
+  {
+    "kanji": "ぐっすり",
+    "hiragana": "ぐっすり",
+    "meaning": "푹, 깊이"
+  },
+  {
+    "kanji": "ぐっと",
+    "hiragana": "ぐっと",
+    "meaning": "꽉, 확, 훨씬"
+  },
+  {
+    "kanji": "けっこう",
+    "hiragana": "けっこう",
+    "meaning": "충분히, 꽤"
+  },
+  {
+    "kanji": "こっそり",
+    "hiragana": "こっそり",
+    "meaning": "몰래, 살짝"
+  },
+  {
+    "kanji": "ごく",
+    "hiragana": "ごく",
+    "meaning": "지극히, 아주, 정말로"
+  },
+  {
+    "kanji": "ごちゃごちゃ",
+    "hiragana": "ごちゃごちゃ",
+    "meaning": "뒤죽박죽, 어수선함"
+  },
+  {
+    "kanji": "ごたごた",
+    "hiragana": "ごたごた",
+    "meaning": "뒤죽박죽, 혼란"
+  },
+  {
+    "kanji": "さらさら",
+    "hiragana": "さらさら",
+    "meaning": "졸졸, 보슬보슬, 사각사각"
+  },
+  {
+    "kanji": "しきりに",
+    "hiragana": "しきりに",
+    "meaning": "자주, 매우, 열심히"
+  },
+  {
+    "kanji": "しだいに",
+    "hiragana": "しだいに",
+    "meaning": "차차, 점점"
+  },
+  {
+    "kanji": "じっと",
+    "hiragana": "じっと",
+    "meaning": "가만히, 참으며"
+  },
+  {
+    "kanji": "じっくり",
+    "hiragana": "じっくり",
+    "meaning": "곰곰이, 찬찬히"
+  },
+  {
+    "kanji": "じゅうぶん",
+    "hiragana": "じゅうぶん",
+    "meaning": "충분히, 완전히"
+  },
+  {
+    "kanji": "すっかり",
+    "hiragana": "すっかり",
+    "meaning": "완전히, 전부"
+  },
+  {
+    "kanji": "すっきり",
+    "hiragana": "すっきり",
+    "meaning": "산뜻하게, 명확하게"
+  },
+  {
+    "kanji": "すなおに",
+    "hiragana": "すなおに",
+    "meaning": "순하게, 솔직하게"
+  },
+  {
+    "kanji": "ずらっと",
+    "hiragana": "ずらっと",
+    "meaning": "죽, 줄지어"
+  },
+  {
+    "kanji": "ずらりと",
+    "hiragana": "ずらりと",
+    "meaning": "죽, 줄지어"
+  },
+  {
+    "kanji": "そわそわ",
+    "hiragana": "そわそわ",
+    "meaning": "마음이 불안정함, 불안한 표정임"
+  },
+  {
+    "kanji": "だらだら",
+    "hiragana": "だらだら",
+    "meaning": "질질, 완만하게, 지루하게"
+  },
+  {
+    "kanji": "ちゃくちゃくと",
+    "hiragana": "ちゃくちゃくと",
+    "meaning": "착착, 차근차근"
+  },
+  {
+    "kanji": "ちゃほや",
+    "hiragana": "ちゃほや",
+    "meaning": "얼러주는 모양"
+  },
+  {
+    "kanji": "ちょくちょく",
+    "hiragana": "ちょくちょく",
+    "meaning": "이따금, 가끔"
+  },
+  {
+    "kanji": "ちょっぴり",
+    "hiragana": "ちょっぴり",
+    "meaning": "조금, 약간"
+  },
+  {
+    "kanji": "ちらちら／ちらつく",
+    "hiragana": "ちらちら／ちらつく",
+    "meaning": "흩날림, 어른거림"
+  },
+  {
+    "kanji": "努めて",
+    "hiragana": "つとめて",
+    "meaning": "가급적, 될 수 있는 대로, 애써"
+  },
+  {
+    "kanji": "てっきり",
+    "hiragana": "てっきり",
+    "meaning": "틀림없이, 영락없이"
+  },
+  {
+    "kanji": "てきぱき",
+    "hiragana": "てきぱき",
+    "meaning": "척척, 재빠르게, 후딱"
+  },
+  {
+    "kanji": "どうにか",
+    "hiragana": "どうにか",
+    "meaning": "그럭저럭, 겨우"
+  },
+  {
+    "kanji": "どうせ",
+    "hiragana": "どうせ",
+    "meaning": "어차피"
+  },
+  {
+    "kanji": "どうやら",
+    "hiragana": "どうやら",
+    "meaning": "아무래도, 아마, 그럭저럭"
+  },
+  {
+    "kanji": "とかく",
+    "hiragana": "とかく",
+    "meaning": "이러저러, 이것저것"
+  },
+  {
+    "kanji": "とにかく",
+    "hiragana": "とにかく",
+    "meaning": "아무튼, 어쨌든"
+  },
+  {
+    "kanji": "とことん",
+    "hiragana": "とことん",
+    "meaning": "끝까지, 철저히"
+  },
+  {
+    "kanji": "とっくに",
+    "hiragana": "とっくに",
+    "meaning": "훨씬 전에, 이미"
+  },
+  {
+    "kanji": "とっさに",
+    "hiragana": "とっさに",
+    "meaning": "즉시, 바로"
+  },
+  {
+    "kanji": "とりあえず",
+    "hiragana": "とりあえず",
+    "meaning": "부랴부랴, 우선"
+  },
+  {
+    "kanji": "とりたてて",
+    "hiragana": "とりたてて",
+    "meaning": "각별히"
+  },
+  {
+    "kanji": "ところどころ",
+    "hiragana": "ところどころ",
+    "meaning": "여러 군데, 군데군데"
+  },
+  {
+    "kanji": "ともかく",
+    "hiragana": "ともかく",
+    "meaning": "어쨌든, 하여튼"
+  },
+  {
+    "kanji": "どきどき",
+    "hiragana": "どきどき",
+    "meaning": "두근두근"
+  },
+  {
+    "kanji": "どっさり",
+    "hiragana": "どっさり",
+    "meaning": "잔뜩, 많이"
+  },
+  {
+    "kanji": "どんどん",
+    "hiragana": "どんどん",
+    "meaning": "계속, 잇따라"
+  },
+  {
+    "kanji": "どんより",
+    "hiragana": "どんより",
+    "meaning": "우중충함, 흐림"
+  },
+  {
+    "kanji": "なんだかんだ",
+    "hiragana": "なんだかんだ",
+    "meaning": "이러니저러니"
+  },
+  {
+    "kanji": "なんとか",
+    "hiragana": "なんとか",
+    "meaning": "어떻게든"
+  },
+  {
+    "kanji": "なんとなく",
+    "hiragana": "なんとなく",
+    "meaning": "왠지 모르게"
+  },
+  {
+    "kanji": "ねちねち",
+    "hiragana": "ねちねち",
+    "meaning": "끈적끈적, 치근치근"
+  },
+  {
+    "kanji": "のきなみ",
+    "hiragana": "のきなみ",
+    "meaning": "모두 다"
+  },
+  {
+    "kanji": "ひたすら",
+    "hiragana": "ひたすら",
+    "meaning": "오로지, 오직, 한결같이"
+  },
+  {
+    "kanji": "ぴんぴん",
+    "hiragana": "ぴんぴん",
+    "meaning": "팔딱팔딱, 팔팔"
+  },
+  {
+    "kanji": "ふいに",
+    "hiragana": "ふいに",
+    "meaning": "갑자기, 느닷없이"
+  },
+  {
+    "kanji": "ふつぜん",
+    "hiragana": "ふつぜん",
+    "meaning": "이러저름함, 어이없음"
+  },
+  {
+    "kanji": "まるごと",
+    "hiragana": "まるごと",
+    "meaning": "도무지, 전혀"
+  },
+  {
+    "kanji": "まんざら",
+    "hiragana": "まんざら",
+    "meaning": "반드시 (~한 것만은 아니다)"
+  },
+  {
+    "kanji": "みすみす",
+    "hiragana": "みすみす",
+    "meaning": "뻔히, 보고도, 눈뜨고"
+  },
+  {
+    "kanji": "みるみるうちに",
+    "hiragana": "みるみるうちに",
+    "meaning": "순식간에, 실시간에"
+  },
+  {
+    "kanji": "めきめき",
+    "hiragana": "めきめき",
+    "meaning": "눈에 띄게, 두드러지게, 무럭무럭"
+  },
+  {
+    "kanji": "めざめざ",
+    "hiragana": "めざめざ",
+    "meaning": "확실하게"
+  },
+  {
+    "kanji": "もはや",
+    "hiragana": "もはや",
+    "meaning": "이제는, 벌써"
+  },
+  {
+    "kanji": "もちもち",
+    "hiragana": "もちもち",
+    "meaning": "여러 가지, 가지가지"
+  },
+  {
+    "kanji": "やけに",
+    "hiragana": "やけに",
+    "meaning": "몹시, 지독히, 매우"
+  },
+  {
+    "kanji": "やんわりと",
+    "hiragana": "やんわりと",
+    "meaning": "부드럽게, 온화하게, 살며시"
+  },
+  {
+    "kanji": "ゆるゆる",
+    "hiragana": "ゆるゆる",
+    "meaning": "천천히, 느릿느릿"
+  },
+  {
+    "kanji": "よくも",
+    "hiragana": "よくも",
+    "meaning": "잘도, (반어적으로) 어쩌면"
+  },
+  {
+    "kanji": "よほど",
+    "hiragana": "よほど",
+    "meaning": "훨씬, 상당히"
+  },
+  {
+    "kanji": "ろくに",
+    "hiragana": "ろくに",
+    "meaning": "변변히, 제대로"
+  },
+  {
+    "kanji": "はっと",
+    "hiragana": "はっと",
+    "meaning": "문득, 얼른"
+  },
+  {
+    "kanji": "はばひろく",
+    "hiragana": "はばひろく",
+    "meaning": "폭넓게"
+  },
+  {
+    "kanji": "ひたむきに",
+    "hiragana": "ひたむきに",
+    "meaning": "오로지, 한결같이"
+  },
+  {
+    "kanji": "ひんやり",
+    "hiragana": "ひんやり",
+    "meaning": "썰렁, 선뜩"
+  },
+  {
+    "kanji": "べつに",
+    "hiragana": "べつに",
+    "meaning": "별로, 따로"
+  },
+  {
+    "kanji": "まして",
+    "hiragana": "まして",
+    "meaning": "하물며, 더구나"
+  },
+  {
+    "kanji": "まれに",
+    "hiragana": "まれに",
+    "meaning": "드물게, 아주 가끔"
+  }
+]
