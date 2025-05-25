@@ -76,7 +76,7 @@ export default {
       correct = this.userAnswer.trim() === this.currentWord.hiragana;
 
       this.feedback = correct
-        ? '정답입니다! 🎉'
+        ? `정답입니다!🎉 뜻: ${this.currentWord.meaning}`
         : `오답입니다. 읽는법: ${this.currentWord.hiragana}, 뜻: ${this.currentWord.meaning}`;
 
       this.isCorrect = correct;
