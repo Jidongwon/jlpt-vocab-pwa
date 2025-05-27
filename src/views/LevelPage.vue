@@ -1,4 +1,5 @@
 <template>
+  <!-- 템플릿 부분은 기존과 동일 -->
   <div class="level-container">
     <h2>{{ level }} 단어 리스트</h2>
     <div class="progress">{{ currentIndex + 1 }} / {{ words.length }}</div>
@@ -16,72 +17,89 @@
     </div>
     <div class="action-group">
       <button class="random-btn" @click="randomWord">🎲 랜덤 단어</button>
-      <router-link class="quiz-link" :to="{ name: 'Quiz', params: { level } }">
+      <router-link
+        class="quiz-link"
+        :to="{
+          name: 'Quiz',
+          params: { level },
+          query: { start: currentIndex },
+        }"
+      >
         📝 퀴즈 모드
       </router-link>
     </div>
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, computed, watch } from 'vue';
+import { useRoute } from 'vue-router';
+import { useLocalStorage } from '@vueuse/core';
 import WordCard from '../components/WordCard.vue';
-import words from '../assets/words/words.json';
+import wordsData from '../assets/words/words.json';
 
-export default {
-  components: { WordCard },
-  data() {
-    return {
-      level: this.$route.params.level || 'N1',
-      words: words,
-      currentIndex: 0,
-      favorites: JSON.parse(localStorage.getItem('favorites') || '[]'),
-    };
-  },
-  computed: {
-    currentWord() {
-      return this.words[this.currentIndex];
-    },
-  },
-  methods: {
-    prevWord() {
-      this.currentIndex =
-        (this.currentIndex - 1 + this.words.length) % this.words.length;
-    },
-    nextWord() {
-      this.currentIndex = (this.currentIndex + 1) % this.words.length;
-    },
-    randomWord() {
-      this.currentIndex = Math.floor(Math.random() * this.words.length);
-    },
-    toggleFavorite(word) {
-      const index = this.favorites.findIndex(f => f.kanji === word.kanji);
-      if (index === -1) {
-        // 즐겨찾기 추가
-        this.favorites.push({
-          kanji: word.kanji,
-          hiragana: word.hiragana,
-          meaning: word.meaning,
-        });
-        // 전체 단어 리스트에서 제거
-        const wordIndex = this.words.findIndex(w => w.kanji === word.kanji);
-        if (wordIndex !== -1) {
-          this.words.splice(wordIndex, 1);
-          // 현재 인덱스 조정
-          if (this.currentIndex >= this.words.length) {
-            this.currentIndex = this.words.length - 1;
-          }
-        }
-      } else {
-        // 즐겨찾기 제거
-        this.favorites.splice(index, 1);
-        // 전체 단어 리스트에 다시 추가
-        this.words.push(word);
+const route = useRoute();
+
+// 반응형 데이터
+const level = ref(route.params.level || 'N1');
+const words = ref([...wordsData]);
+const currentIndex = useLocalStorage(
+  'jlpt-quiz-index',
+  Number(route.query.start) || 0
+);
+const favorites = useLocalStorage('favorites', []);
+
+// 계산된 속성
+const currentWord = computed(() =>
+  words.value.length
+    ? words.value[currentIndex.value]
+    : { kanji: '', hiragana: '', meaning: '' }
+);
+
+// 감시자
+watch(currentIndex, newVal => {
+  localStorage.setItem('jlpt-quiz-index', newVal);
+});
+
+// 메서드
+const prevWord = () => {
+  currentIndex.value =
+    (currentIndex.value - 1 + words.value.length) % words.value.length;
+};
+
+const nextWord = () => {
+  currentIndex.value = (currentIndex.value + 1) % words.value.length;
+};
+
+const randomWord = () => {
+  currentIndex.value = Math.floor(Math.random() * words.value.length);
+};
+
+const toggleFavorite = word => {
+  const index = favorites.value.findIndex(f => f.kanji === word.kanji);
+
+  if (index === -1) {
+    // 즐겨찾기 추가
+    favorites.value.push({
+      kanji: word.kanji,
+      hiragana: word.hiragana,
+      meaning: word.meaning,
+    });
+
+    // 전체 단어 리스트에서 제거
+    const wordIndex = words.value.findIndex(w => w.kanji === word.kanji);
+    if (wordIndex !== -1) {
+      words.value.splice(wordIndex, 1);
+      if (currentIndex.value >= words.value.length) {
+        currentIndex.value = words.value.length - 1;
       }
-      // localStorage 업데이트
-      localStorage.setItem('favorites', JSON.stringify(this.favorites));
-      localStorage.setItem('words', JSON.stringify(this.words));
-    },
-  },
+    }
+  } else {
+    // 즐겨찾기 제거
+    favorites.value.splice(index, 1);
+    // 전체 단어 리스트에 다시 추가
+    words.value.push(word);
+  }
 };
 </script>
 

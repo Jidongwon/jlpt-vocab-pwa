@@ -1,10 +1,10 @@
 <template>
-  <div :class="{ dark: isDark }" id="app">
+  <div id="app">
     <nav>
       <router-link to="/">홈</router-link>
       |
       <router-link to="/favorites">즐겨찾기</router-link>
-      <button class="dark-toggle" @click="toggleDark">
+      <button class="dark-toggle" @click="toggleDark()">
         {{ isDark ? '🌙 다크모드 해제' : '🌞 다크모드 적용' }}
       </button>
     </nav>
@@ -12,33 +12,17 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      isDark: localStorage.getItem('jlpt-dark') === 'true',
-    };
-  },
-  watch: {
-    isDark(val) {
-      localStorage.setItem('jlpt-dark', val);
-    },
-  },
-  methods: {
-    toggleDark() {
-      this.isDark = !this.isDark;
-    },
-  },
-  mounted() {
-    // 시스템 다크모드 감지 (처음 접속 시)
-    if (localStorage.getItem('jlpt-dark') === null) {
-      this.isDark =
-        window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches;
-      localStorage.setItem('jlpt-dark', this.isDark);
-    }
-  },
-};
+<script setup>
+import { useDark, useToggle } from '@vueuse/core';
+
+// isDark: 반응형 불린, toggleDark: 함수
+const isDark = useDark({
+  storageKey: 'jlpt-dark', // localStorage에 저장되는 key
+  valueDark: 'dark', // 다크모드 클래스 이름
+  valueLight: '', // 라이트모드 클래스(없으면 '')
+  selector: 'html',
+});
+const toggleDark = useToggle(isDark);
 </script>
 
 <style>

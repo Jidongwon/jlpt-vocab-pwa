@@ -38,81 +38,102 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    words: {
-      type: Array,
-      required: true,
-      default: () => [],
-    },
+<script setup>
+import { ref, watch, defineProps, computed } from 'vue';
+import { useLocalStorage } from '@vueuse/core';
+
+const props = defineProps({
+  words: {
+    type: Array,
+    required: true,
+    default: () => [],
   },
-  data() {
-    return {
-      quizWords: [],
-      currentIndex: 0,
-      userAnswer: '',
-      feedback: '',
-      isCorrect: false,
-    };
+});
+
+const quizWords = ref([]);
+const currentIndex = useLocalStorage('jlpt-quiz-index', 0);
+const quizState = useLocalStorage('quiz-state', {
+  words: [],
+  shuffledOrder: [],
+});
+const userAnswer = ref('');
+const feedback = ref('');
+const isCorrect = ref(false);
+
+const currentWord = computed(() =>
+  quizWords.value.length
+    ? quizWords.value[currentIndex.value]
+    : { kanji: '', hiragana: '', meaning: '' }
+);
+
+watch(
+  () => props.words,
+  newWords => {
+    if (
+      !quizState.value.words.length ||
+      !arraysEqual(quizState.value.words, newWords)
+    ) {
+      // 새로운 단어 세트이거나 처음 로드할 때
+      quizState.value = {
+        words: newWords,
+        shuffledOrder: shuffleArray(newWords),
+      };
+      quizWords.value = quizState.value.shuffledOrder;
+    } else {
+      // 이전 상태 복원
+      quizWords.value = quizState.value.shuffledOrder;
+    }
+
+    userAnswer.value = '';
+    feedback.value = '';
+    isCorrect.value = false;
   },
-  computed: {
-    currentWord() {
-      return this.quizWords.length
-        ? this.quizWords[this.currentIndex]
-        : { kanji: '', hiragana: '', meaning: '' };
-    },
-  },
-  watch: {
-    words: {
-      immediate: true,
-      handler(newWords) {
-        this.resetQuiz(newWords);
-      },
-    },
-  },
-  methods: {
-    resetQuiz(words) {
-      // words 배열을 섞어서 quizWords에 저장
-      this.quizWords = this.shuffleArray(words);
-      this.currentIndex = 0;
-      this.userAnswer = '';
-      this.feedback = '';
-      this.isCorrect = false;
-    },
-    shuffleArray(array) {
-      // Fisher-Yates 알고리즘
-      const arr = array.slice();
-      for (let i = arr.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [arr[i], arr[j]] = [arr[j], arr[i]];
-      }
-      return arr;
-    },
-    checkAnswer() {
-      if (!this.quizWords.length || !this.userAnswer.trim()) return;
-      const correct = this.userAnswer.trim() === this.currentWord.hiragana;
-      this.feedback = correct
-        ? `정답입니다!🎉 뜻: ${this.currentWord.meaning}`
-        : `오답입니다. 읽는법: ${this.currentWord.hiragana}, 뜻: ${this.currentWord.meaning}`;
-      this.isCorrect = correct;
-    },
-    nextQuestion() {
-      this.userAnswer = '';
-      this.feedback = '';
-      this.isCorrect = false;
-      if (this.currentIndex < this.quizWords.length - 1) {
-        this.currentIndex += 1;
-      } else {
-        // 모든 문제를 다 풀었을 때 다시 섞어서 시작
-        this.resetQuiz(this.words);
-      }
-    },
-  },
-  mounted() {
-    this.resetQuiz(this.words);
-  },
-};
+  { immediate: true }
+);
+
+function arraysEqual(arr1, arr2) {
+  return (
+    arr1.length === arr2.length &&
+    arr1.every((word, i) => word.kanji === arr2[i].kanji)
+  );
+}
+
+function resetQuiz(words) {
+  quizWords.value = shuffleArray(words);
+  currentIndex.value = 0;
+  userAnswer.value = '';
+  feedback.value = '';
+  isCorrect.value = false;
+}
+
+function shuffleArray(array) {
+  const arr = array.slice();
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function checkAnswer() {
+  if (!quizWords.value.length || !userAnswer.value.trim()) return;
+  const correct = userAnswer.value.trim() === currentWord.value.hiragana;
+  feedback.value = correct
+    ? `정답입니다!🎉 뜻: ${currentWord.value.meaning}`
+    : `오답입니다. 읽는법: ${currentWord.value.hiragana}, 뜻: ${currentWord.value.meaning}`;
+  isCorrect.value = correct;
+}
+
+function nextQuestion() {
+  userAnswer.value = '';
+  feedback.value = '';
+  isCorrect.value = false;
+  if (currentIndex.value < quizWords.value.length - 1) {
+    currentIndex.value += 1;
+  } else {
+    resetQuiz(props.words);
+  }
+}
 </script>
 
 <style scoped>
