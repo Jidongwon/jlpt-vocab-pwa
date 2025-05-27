@@ -5,9 +5,15 @@
   }
   
   @media (max-width: 640px) {
-    .container {
-      padding: var(--mobile-padding);
-    }
+    :root {
+        --mobile-padding: 0.5em;
+        --mobile-font-size: 0.9em;
+        --mobile-gap: 0.5em;
+      }
+    
+      .container {
+        padding: var(--mobile-padding);
+      }
     
     .card {
       margin: var(--mobile-padding);
