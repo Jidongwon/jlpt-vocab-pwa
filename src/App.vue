@@ -84,8 +84,6 @@ nav a.router-link-exact-active {
   --secondary: #34495e;
   --accent: #f67280;
   --card-bg: #2c3e50;
-  background: #2c3e50;
-  color: #fff;
 }
 .dark nav {
   background: #34495e;
