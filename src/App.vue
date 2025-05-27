@@ -13,7 +13,13 @@
 </template>
 
 <script setup>
-import { useDark, useToggle } from '@vueuse/core';
+import {
+  useDark,
+  useToggle,
+  useBreakpoints,
+  breakpointsTailwind,
+} from '@vueuse/core';
+import { provide } from 'vue';
 
 // isDark: 반응형 불린, toggleDark: 함수
 const isDark = useDark({
@@ -23,6 +29,10 @@ const isDark = useDark({
   selector: 'html',
 });
 const toggleDark = useToggle(isDark);
+
+const breakpoints = useBreakpoints(breakpointsTailwind);
+const isMobile = breakpoints.smallerOrEqual('sm');
+provide('isMobile', isMobile);
 </script>
 
 <style>

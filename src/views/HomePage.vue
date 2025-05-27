@@ -1,16 +1,15 @@
 <template>
-  <div class="app-container">
+  <div :class="['app-container', { mobile: isMobile }]">
     <h1 class="app-title">JLPT 단어 학습 앱</h1>
     <LevelSelector />
   </div>
 </template>
 
-<script>
+<script setup>
+import { inject } from 'vue';
 import LevelSelector from '../components/LevelSelector.vue';
 
-export default {
-  components: { LevelSelector },
-};
+const isMobile = inject('isMobile');
 </script>
 
 <style scoped>

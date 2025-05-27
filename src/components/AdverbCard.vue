@@ -17,33 +17,33 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    word: {
-      type: Object,
-      required: true,
-    },
-    favorites: {
-      type: Array,
-      default: () => [],
-    },
+<script setup>
+import { computed, defineProps, defineEmits } from 'vue';
+
+const props = defineProps({
+  word: {
+    type: Object,
+    required: true,
   },
-  computed: {
-    isFavorite() {
-      return this.favorites.some(f => f.kanji === this.word.kanji);
-    },
+  favorites: {
+    type: Array,
+    default: () => [],
   },
-  methods: {
-    toggleFavorite() {
-      this.$emit('toggle-favorite', {
-        kanji: this.word.kanji,
-        hiragana: this.word.hiragana,
-        meaning: this.word.meaning,
-      });
-    },
-  },
-};
+});
+
+const emit = defineEmits(['toggle-favorite']);
+
+const isFavorite = computed(() =>
+  props.favorites.some(f => f.kanji === props.word.kanji)
+);
+
+function toggleFavorite() {
+  emit('toggle-favorite', {
+    kanji: props.word.kanji,
+    hiragana: props.word.hiragana,
+    meaning: props.word.meaning,
+  });
+}
 </script>
 
 <style scoped>

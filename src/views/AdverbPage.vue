@@ -1,5 +1,5 @@
 <template>
-  <div class="level-container">
+  <div :class="['level-container', { mobile: isMobile }]">
     <h2>{{ level }} 부사 리스트</h2>
     <div class="progress">{{ currentIndex + 1 }} / {{ words.length }}</div>
     <AdverbCard
@@ -20,66 +20,58 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, computed, inject } from 'vue';
+import { useRoute } from 'vue-router';
+import { useLocalStorage } from '@vueuse/core';
 import AdverbCard from '@/components/AdverbCard.vue';
-import words from '../assets/words/adverb.json';
+import wordsData from '../assets/words/adverb.json';
 
-export default {
-  components: { AdverbCard },
-  data() {
-    return {
-      level: this.$route.params.level || 'N1',
-      words: words,
-      currentIndex: 0,
-      favorites: JSON.parse(localStorage.getItem('favorites') || '[]'),
-    };
-  },
-  computed: {
-    currentWord() {
-      return this.words[this.currentIndex];
-    },
-  },
-  methods: {
-    prevWord() {
-      this.currentIndex =
-        (this.currentIndex - 1 + this.words.length) % this.words.length;
-    },
-    nextWord() {
-      this.currentIndex = (this.currentIndex + 1) % this.words.length;
-    },
-    randomWord() {
-      this.currentIndex = Math.floor(Math.random() * this.words.length);
-    },
-    toggleFavorite(word) {
-      const index = this.favorites.findIndex(f => f.kanji === word.kanji);
-      if (index === -1) {
-        // 즐겨찾기 추가
-        this.favorites.push({
-          kanji: word.kanji,
-          hiragana: word.hiragana,
-          meaning: word.meaning,
-        });
-        // 전체 단어 리스트에서 제거
-        const wordIndex = this.words.findIndex(w => w.kanji === word.kanji);
-        if (wordIndex !== -1) {
-          this.words.splice(wordIndex, 1);
-          // 현재 인덱스 조정
-          if (this.currentIndex >= this.words.length) {
-            this.currentIndex = this.words.length - 1;
-          }
-        }
-      } else {
-        // 즐겨찾기 제거
-        this.favorites.splice(index, 1);
-        // 전체 단어 리스트에 다시 추가
-        this.words.push(word);
+// 모바일 여부 상위에서 provide('isMobile', ...) 했다고 가정
+const isMobile = inject('isMobile', false);
+
+const route = useRoute();
+const level = ref(route.params.level || 'N1');
+const words = ref([...wordsData]);
+const currentIndex = ref(0);
+const favorites = useLocalStorage('favorites', []);
+
+const currentWord = computed(() => words.value[currentIndex.value]);
+
+function prevWord() {
+  currentIndex.value =
+    (currentIndex.value - 1 + words.value.length) % words.value.length;
+}
+function nextWord() {
+  currentIndex.value = (currentIndex.value + 1) % words.value.length;
+}
+function randomWord() {
+  currentIndex.value = Math.floor(Math.random() * words.value.length);
+}
+function toggleFavorite(word) {
+  const index = favorites.value.findIndex(f => f.kanji === word.kanji);
+  if (index === -1) {
+    // 즐겨찾기 추가
+    favorites.value.push({
+      kanji: word.kanji,
+      hiragana: word.hiragana,
+      meaning: word.meaning,
+    });
+    // 전체 단어 리스트에서 제거
+    const wordIndex = words.value.findIndex(w => w.kanji === word.kanji);
+    if (wordIndex !== -1) {
+      words.value.splice(wordIndex, 1);
+      if (currentIndex.value >= words.value.length) {
+        currentIndex.value = words.value.length - 1;
       }
-      // localStorage 업데이트
-      localStorage.setItem('favorites', JSON.stringify(this.favorites));
-      localStorage.setItem('words', JSON.stringify(this.words));
-    },
-  },
-};
+    }
+  } else {
+    // 즐겨찾기 제거
+    favorites.value.splice(index, 1);
+    // 전체 단어 리스트에 다시 추가
+    words.value.push(word);
+  }
+}
 </script>
 
 <style>
@@ -98,6 +90,12 @@ export default {
   box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
   text-align: center;
   transition: background 0.3s;
+}
+
+/* 모바일 전용 스타일 */
+.level-container.mobile {
+  max-width: 100vw;
+  padding: 1rem 0.5rem 1.5rem 0.5rem;
 }
 
 h2 {

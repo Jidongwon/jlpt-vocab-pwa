@@ -1,6 +1,6 @@
 <template>
   <!-- 템플릿 부분은 기존과 동일 -->
-  <div class="level-container">
+  <div :class="['level-container', { mobile: isMobile }]">
     <h2>{{ level }} 단어 리스트</h2>
     <div class="progress">{{ currentIndex + 1 }} / {{ words.length }}</div>
     <WordCard
@@ -32,13 +32,14 @@
 </template>
 
 <script setup>
-import { ref, computed, watch } from 'vue';
+import { ref, computed, watch, inject } from 'vue';
 import { useRoute } from 'vue-router';
 import { useLocalStorage } from '@vueuse/core';
 import WordCard from '../components/WordCard.vue';
 import wordsData from '../assets/words/words.json';
 
 const route = useRoute();
+const isMobile = inject('isMobile');
 
 // 반응형 데이터
 const level = ref(route.params.level || 'N1');

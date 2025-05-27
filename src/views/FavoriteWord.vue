@@ -1,7 +1,7 @@
 <template>
-  <div class="favorites-container">
+  <div :class="['favorites-container', { mobile: isMobile }]">
     <h2 class="favorites-title">⭐ 즐겨찾기 단어</h2>
-    <ul class="favorites-list" v-if="favorites.length > 0">
+    <ul class="favorites-list" v-if="filteredFavorites.length > 0">
       <li
         v-for="word in filteredFavorites"
         :key="word.kanji"
@@ -17,41 +17,27 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      favorites: [],
-    };
-  },
-  computed: {
-    filteredFavorites() {
-      return this.favorites.filter(
-        word =>
-          typeof word === 'object' &&
-          word.kanji &&
-          word.hiragana &&
-          word.meaning
-      );
-    },
-  },
-  methods: {
-    clearFavorites() {
-      localStorage.removeItem('favorites');
-      this.favorites = [];
-    },
-  },
-  mounted() {
-    try {
-      this.favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
-    } catch (e) {
-      console.error('Error parsing favorites:', e);
-      this.favorites = [];
-      localStorage.removeItem('favorites');
-    }
-  },
-};
+<script setup>
+import { computed, inject } from 'vue';
+import { useLocalStorage } from '@vueuse/core';
+
+// 모바일 여부 상위에서 provide('isMobile', ...) 했다고 가정
+const isMobile = inject('isMobile', false);
+
+const favorites = useLocalStorage('favorites', []);
+
+const filteredFavorites = computed(() =>
+  favorites.value.filter(
+    word =>
+      typeof word === 'object' && word.kanji && word.hiragana && word.meaning
+  )
+);
+
+function clearFavorites() {
+  favorites.value = [];
+}
 </script>
+
 <style scoped>
 .favorites-container {
   max-width: 400px;
@@ -60,6 +46,12 @@ export default {
   background: #fff;
   border-radius: 18px;
   box-shadow: 0 4px 24px rgba(94, 114, 228, 0.09);
+}
+
+/* 모바일 전용 스타일 */
+.favorites-container.mobile {
+  max-width: 100vw;
+  padding: 1em 0.3em 1em 0.3em;
 }
 
 .favorites-title {

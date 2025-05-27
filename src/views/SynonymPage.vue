@@ -1,5 +1,5 @@
 <template>
-  <div class="level-container">
+  <div :class="['level-container', { mobile: isMobile }]">
     <h2>{{ level }} 동의어 리스트</h2>
     <div class="progress">{{ currentIndex + 1 }} / {{ words.length }}</div>
     <SynonymCard
@@ -19,49 +19,34 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, computed, inject } from 'vue';
 import SynonymCard from '@/components/SynonymCard.vue';
-import words from '../assets/words/synonym.json';
+import wordsData from '../assets/words/synonym.json';
 
-export default {
-  components: { SynonymCard },
+const isMobile = inject('isMobile', false);
+const words = ref([...wordsData]);
+const currentIndex = ref(0);
 
-  data() {
-    return {
-      words: words,
-      currentIndex: 0,
-    };
-  },
-  computed: {
-    currentWord() {
-      return (
-        this.words[this.currentIndex] || {
-          word1: {
-            kanji: '',
-            hiragana: '',
-            meaning: '',
-          },
-          word2: {
-            kanji: '',
-            hiragana: '',
-            meaning: '',
-          },
-        }
-      );
-    },
-  },
-  methods: {
-    prevWord() {
-      this.currentIndex =
-        (this.currentIndex - 1 + this.words.length) % this.words.length;
-    },
-    nextWord() {
-      this.currentIndex = (this.currentIndex + 1) % this.words.length;
-    },
-    randomWord() {
-      this.currentIndex = Math.floor(Math.random() * this.words.length);
-    },
-  },
+const currentWord = computed(
+  () =>
+    words.value[currentIndex.value] || {
+      word1: { kanji: '', hiragana: '', meaning: '' },
+      word2: { kanji: '', hiragana: '', meaning: '' },
+    }
+);
+
+const prevWord = () => {
+  currentIndex.value =
+    (currentIndex.value - 1 + words.value.length) % words.value.length;
+};
+
+const nextWord = () => {
+  currentIndex.value = (currentIndex.value + 1) % words.value.length;
+};
+
+const randomWord = () => {
+  currentIndex.value = Math.floor(Math.random() * words.value.length);
 };
 </script>
 

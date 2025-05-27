@@ -17,34 +17,34 @@
     </div>
   </div>
 </template>
-<script>
-export default {
-  data() {
-    return {
-      levels: {
-        N1: [
-          { id: 'adverb', name: '부사', path: '/n1/adverb' },
-          { id: 'synonym', name: '동의어', path: '/n1/synonym' },
-        ],
-        N2: [],
-        N3: [],
-        N4: [],
-        N5: [],
-      },
-    };
-  },
-  methods: {
-    selectLevel(level) {
-      this.$router.push({ name: 'Level', params: { level } });
-    },
-    selectCategory(level, categoryId) {
-      const category = this.levels[level].find(c => c.id === categoryId);
-      if (category) {
-        this.$router.push(category.path);
-      }
-    },
-  },
-};
+
+<script setup>
+import { ref } from 'vue';
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const levels = ref({
+  N1: [
+    { id: 'adverb', name: '부사', path: '/n1/adverb' },
+    { id: 'synonym', name: '동의어', path: '/n1/synonym' },
+  ],
+  N2: [],
+  N3: [],
+  N4: [],
+  N5: [],
+});
+
+function selectLevel(level) {
+  router.push({ name: 'Level', params: { level } });
+}
+
+function selectCategory(level, categoryId) {
+  const category = levels.value[level].find(c => c.id === categoryId);
+  if (category) {
+    router.push(category.path);
+  }
+}
 </script>
 
 <style scoped>
