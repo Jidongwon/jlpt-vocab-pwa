@@ -49,57 +49,68 @@ export default {
   },
   data() {
     return {
+      quizWords: [],
       currentIndex: 0,
       userAnswer: '',
       feedback: '',
-      quizType: 'hiragana',
       isCorrect: false,
     };
   },
   computed: {
     currentWord() {
-      return this.words.length
-        ? this.words[this.currentIndex]
-        : {
-            kanji: '',
-            hiragana: '',
-            meaning: '',
-          };
+      return this.quizWords.length
+        ? this.quizWords[this.currentIndex]
+        : { kanji: '', hiragana: '', meaning: '' };
+    },
+  },
+  watch: {
+    words: {
+      immediate: true,
+      handler(newWords) {
+        this.resetQuiz(newWords);
+      },
     },
   },
   methods: {
+    resetQuiz(words) {
+      // words 배열을 섞어서 quizWords에 저장
+      this.quizWords = this.shuffleArray(words);
+      this.currentIndex = 0;
+      this.userAnswer = '';
+      this.feedback = '';
+      this.isCorrect = false;
+    },
+    shuffleArray(array) {
+      // Fisher-Yates 알고리즘
+      const arr = array.slice();
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    },
     checkAnswer() {
-      if (!this.words.length || !this.userAnswer.trim()) return;
-
-      let correct;
-      // 히라가나 체크 로직
-      correct = this.userAnswer.trim() === this.currentWord.hiragana;
-
+      if (!this.quizWords.length || !this.userAnswer.trim()) return;
+      const correct = this.userAnswer.trim() === this.currentWord.hiragana;
       this.feedback = correct
         ? `정답입니다!🎉 뜻: ${this.currentWord.meaning}`
         : `오답입니다. 읽는법: ${this.currentWord.hiragana}, 뜻: ${this.currentWord.meaning}`;
-
       this.isCorrect = correct;
-    },
-    shuffleWords() {
-      this.currentIndex = Math.floor(Math.random() * this.words.length);
     },
     nextQuestion() {
       this.userAnswer = '';
       this.feedback = '';
-      if (this.words.length) {
-        // 랜덤한 인덱스 선택 (현재 인덱스와 다른 값)
-        let newIndex;
-        do {
-          newIndex = Math.floor(Math.random() * this.words.length);
-        } while (newIndex === this.currentIndex && this.words.length > 1);
-        this.currentIndex = newIndex;
-      }
       this.isCorrect = false;
+      if (this.currentIndex < this.quizWords.length - 1) {
+        this.currentIndex += 1;
+      } else {
+        // 모든 문제를 다 풀었을 때 다시 섞어서 시작
+        this.resetQuiz(this.words);
+      }
     },
   },
   mounted() {
-    this.shuffleWords();
+    this.resetQuiz(this.words);
   },
 };
 </script>
