@@ -50,10 +50,15 @@ const currentIndex = useLocalStorage(
 );
 const favorites = useLocalStorage('favorites', []);
 
+const filteredWords = computed(() =>
+  words.value.filter(
+    word => !favorites.value.some(fav => fav.kanji === word.kanji)
+  )
+);
 // 계산된 속성
 const currentWord = computed(() =>
-  words.value.length
-    ? words.value[currentIndex.value]
+  filteredWords.value.length
+    ? filteredWords.value[currentIndex.value]
     : { kanji: '', hiragana: '', meaning: '' }
 );
 
@@ -65,15 +70,16 @@ watch(currentIndex, newVal => {
 // 메서드
 const prevWord = () => {
   currentIndex.value =
-    (currentIndex.value - 1 + words.value.length) % words.value.length;
+    (currentIndex.value - 1 + filteredWords.value.length) %
+    filteredWords.value.length;
 };
 
 const nextWord = () => {
-  currentIndex.value = (currentIndex.value + 1) % words.value.length;
+  currentIndex.value = (currentIndex.value + 1) % filteredWords.value.length;
 };
 
 const randomWord = () => {
-  currentIndex.value = Math.floor(Math.random() * words.value.length);
+  currentIndex.value = Math.floor(Math.random() * filteredWords.value.length);
 };
 
 const toggleFavorite = word => {
