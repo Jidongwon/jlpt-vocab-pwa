@@ -32,9 +32,14 @@
         {{ feedback }}
       </p>
     </transition>
-    <button class="next-btn" @click="nextQuestion" v-if="feedback">
-      다음 문제
-    </button>
+    <div class="button-group">
+      <button class="skip-btn" @click="nextQuestion" v-if="!feedback">
+        건너뛰기
+      </button>
+      <button class="next-btn" @click="nextQuestion" v-if="feedback">
+        다음 문제
+      </button>
+    </div>
   </div>
 </template>
 
@@ -256,6 +261,27 @@ function nextQuestion() {
   opacity: 0;
 }
 
+.button-group {
+  margin-top: 0.5em;
+  display: flex;
+  gap: 1em;
+}
+
+.skip-btn {
+  background: #f0f0f0;
+  color: #666;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5em 1.3em;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.13s;
+}
+
+.skip-btn:hover {
+  background: #e0e0e0;
+}
 @media (max-width: 500px) {
   .quiz-card {
     padding: 1.2em 0.5em;
@@ -271,6 +297,10 @@ function nextQuestion() {
   .submit-btn {
     font-size: 1em;
     padding: 0.5em 0.7em;
+  }
+  .skip-btn {
+    font-size: 0.9em;
+    padding: 0.4em 1em;
   }
 }
 </style>
