@@ -1401,18 +1401,6 @@
     "word2": { "kanji": "胆力", "hiragana": "たんりょく", "meaning": "담력" }
   },
   {
-    "word1": {
-      "kanji": "第一人者",
-      "hiragana": "だいいちにんしゃ",
-      "meaning": "제1인자"
-    },
-    "word2": {
-      "kanji": "第一人者",
-      "hiragana": "だいいちにんしゃ",
-      "meaning": "제1인자"
-    }
-  },
-  {
     "word1": { "kanji": "回復", "hiragana": "かいふく", "meaning": "회복" },
     "word2": {
       "kanji": "復活",
@@ -2055,7 +2043,7 @@
   {
     "word1": { "kanji": "指示", "hiragana": "しじ", "meaning": "지시, 지령" },
     "word2": {
-      "kanji": "指示する・指揮",
+      "kanji": "指揮",
       "hiragana": "しじする・しき",
       "meaning": "지시하다, 지휘"
     }
@@ -2226,26 +2214,6 @@
   },
   {
     "word1": {
-      "kanji": "未上長",
-      "hiragana": "みじょうちょう",
-      "meaning": "미상장"
-    },
-    "word2": {
-      "kanji": "未上場",
-      "hiragana": "みじょうじょう",
-      "meaning": "미상장"
-    }
-  },
-  {
-    "word1": {
-      "kanji": "悪く言われる",
-      "hiragana": "わるくいわれる",
-      "meaning": "나쁜 말을 듣다"
-    },
-    "word2": { "kanji": "悪口", "hiragana": "わるくち", "meaning": "욕, 험담" }
-  },
-  {
-    "word1": {
       "kanji": "心配・気がかり",
       "hiragana": "しんぱい・きがかり",
       "meaning": "걱정"
@@ -2266,31 +2234,11 @@
   },
   {
     "word1": {
-      "kanji": "すこやか",
-      "hiragana": "すこやか",
-      "meaning": "건강한"
-    },
-    "word2": { "kanji": "健やか", "hiragana": "すこやか", "meaning": "건강한" }
-  },
-  {
-    "word1": {
       "kanji": "おさむ",
       "hiragana": "おさむ",
       "meaning": "임무, 의무"
     },
     "word2": { "kanji": "義務", "hiragana": "ぎむ", "meaning": "의무" }
-  },
-  {
-    "word1": {
-      "kanji": "頭脳皮質",
-      "hiragana": "ずのうひしつ",
-      "meaning": "천연피디"
-    },
-    "word2": {
-      "kanji": "ずずうしい",
-      "hiragana": "ずずうしい",
-      "meaning": "뻔뻔하다"
-    }
   },
   {
     "word1": {
@@ -2330,8 +2278,8 @@
   },
   {
     "word1": {
-      "kanji": "爽やかだ・すがすがしい",
-      "hiragana": "さわやかだ・すがすがしい",
+      "kanji": "爽やかだ",
+      "hiragana": "さわやかだ",
       "meaning": "상쾌하다"
     },
     "word2": {
@@ -2355,18 +2303,6 @@
   {
     "word1": { "kanji": "覚悟", "hiragana": "かくご", "meaning": "각오" },
     "word2": { "kanji": "決心", "hiragana": "けっしん", "meaning": "결심" }
-  },
-  {
-    "word1": {
-      "kanji": "不安だ",
-      "hiragana": "ふあんだ",
-      "meaning": "불안하다"
-    },
-    "word2": {
-      "kanji": "心配だ",
-      "hiragana": "しんぱいだ",
-      "meaning": "걱정이다"
-    }
   },
   {
     "word1": { "kanji": "試み", "hiragana": "こころみ", "meaning": "시도" },
@@ -2439,30 +2375,6 @@
   },
   {
     "word1": {
-      "kanji": "こたわる",
-      "hiragana": "こたわる",
-      "meaning": "거절하다"
-    },
-    "word2": {
-      "kanji": "거절하다",
-      "hiragana": "거절하다",
-      "meaning": "거절하다"
-    }
-  },
-  {
-    "word1": {
-      "kanji": "気掛かり",
-      "hiragana": "きがかり",
-      "meaning": "걱정, 근심, 염려"
-    },
-    "word2": {
-      "kanji": "心配",
-      "hiragana": "しんぱい",
-      "meaning": "걱정, 근심, 염려"
-    }
-  },
-  {
-    "word1": {
       "kanji": "気疲れ",
       "hiragana": "きづかれ",
       "meaning": "신경을 씀, 소소한 피로"
@@ -2500,18 +2412,6 @@
       "hiragana": "いやがらせ",
       "meaning": "괴롭힘, 방해함"
     }
-  },
-  {
-    "word1": { "kanji": "頭痛", "hiragana": "ずつう", "meaning": "두통" },
-    "word2": { "kanji": "頭痛", "hiragana": "ずつう", "meaning": "두통" }
-  },
-  {
-    "word1": {
-      "kanji": "頭脳",
-      "hiragana": "ずのう",
-      "meaning": "두뇌, 명확히 생각하다"
-    },
-    "word2": { "kanji": "脳", "hiragana": "のう", "meaning": "뇌" }
   },
   {
     "word1": { "kanji": "頭数", "hiragana": "あたまかず", "meaning": "머릿수" },
@@ -2787,18 +2687,6 @@
   },
   {
     "word1": {
-      "kanji": "改善する",
-      "hiragana": "かいぜんする",
-      "meaning": "개선하다"
-    },
-    "word2": {
-      "kanji": "改良する",
-      "hiragana": "かいりょうする",
-      "meaning": "개량하다"
-    }
-  },
-  {
-    "word1": {
       "kanji": "快方に向かう",
       "hiragana": "かいほうにむかう",
       "meaning": "차도를 보이다"
@@ -2847,47 +2735,7 @@
   },
   {
     "word1": { "kanji": "外傷", "hiragana": "がいしょう", "meaning": "외상" },
-    "word2": { "kanji": "けが", "hiragana": "けが", "meaning": "상처" }
-  },
-  {
-    "word1": {
-      "kanji": "外相",
-      "hiragana": "がいしょう",
-      "meaning": "외무장관"
-    },
-    "word2": {
-      "kanji": "外務大臣",
-      "hiragana": "がいむだいじん",
-      "meaning": "외무대신"
-    }
-  },
-  {
-    "word1": { "kanji": "外食", "hiragana": "がいしょく", "meaning": "외식" },
-    "word2": {
-      "kanji": "外で食べる",
-      "hiragana": "そとでたべる",
-      "meaning": "밖에서 먹다"
-    }
-  },
-  {
-    "word1": { "kanji": "外出", "hiragana": "がいしゅつ", "meaning": "외출" },
-    "word2": {
-      "kanji": "出かける",
-      "hiragana": "でかける",
-      "meaning": "나가다"
-    }
-  },
-  {
-    "word1": {
-      "kanji": "外線",
-      "hiragana": "がいせん",
-      "meaning": "외선, 외부 전화"
-    },
-    "word2": {
-      "kanji": "外部電話",
-      "hiragana": "がいぶでんわ",
-      "meaning": "외부 전화"
-    }
+    "word2": { "kanji": "怪我", "hiragana": "けが", "meaning": "상처" }
   },
   {
     "word1": {
@@ -3407,20 +3255,7 @@
       "hiragana": "うけもち",
       "meaning": "담임, 담당"
     },
-    "word2": { "kanji": "担任", "hiragana": "たんにん", "meaning": "담임" },
-    "word3": { "kanji": "担当", "hiragana": "たんとう", "meaning": "담당" }
-  },
-  {
-    "word1": {
-      "kanji": "告白する",
-      "hiragana": "こくはくする",
-      "meaning": "고백하다"
-    },
-    "word2": {
-      "kanji": "告白する",
-      "hiragana": "こくはくする",
-      "meaning": "고백하다"
-    }
+    "word2": { "kanji": "担任", "hiragana": "たんにん", "meaning": "담임" }
   },
   {
     "word1": {
