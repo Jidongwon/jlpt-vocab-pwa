@@ -435,8 +435,23 @@
     "meaning": "하물며, 더구나"
   },
   {
-    "kanji": "まれに",
-    "hiragana": "まれに",
-    "meaning": "드물게, 아주 가끔"
+    "kanji": "Aは(を)抜きで(に)",
+    "hiragana": "",
+    "meaning": "A는 빼고"
+  },
+  {
+    "kanji": "명사 + ながらも",
+    "hiragana": "",
+    "meaning": "~이지만"
+  },
+  {
+    "kanji": "AであれBであれ",
+    "hiragana": "",
+    "meaning": "A든 B든"
+  },
+  {
+    "kanji": "~にあたらない",
+    "hiragana": "",
+    "meaning": "~할 필요가 없다"
   }
 ]
