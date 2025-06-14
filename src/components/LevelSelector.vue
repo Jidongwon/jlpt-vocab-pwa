@@ -28,6 +28,7 @@ const levels = ref({
   N1: [
     { id: 'adverb', name: '부사', path: '/n1/adverb' },
     { id: 'synonym', name: '동의어', path: '/n1/synonym' },
+    { id: 'grammar', name: '문법', path: '/n1/grammar' },
   ],
   N2: [],
   N3: [],
