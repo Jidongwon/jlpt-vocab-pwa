@@ -32,7 +32,7 @@
 </template>
 
 <script setup>
-import { ref, computed, watch, inject } from 'vue';
+import { ref, computed, watch, inject, onMounted, onBeforeUnmount } from 'vue';
 import { useRoute } from 'vue-router';
 import { useLocalStorage } from '@vueuse/core';
 import WordCard from '../components/WordCard.vue';
@@ -67,7 +67,6 @@ watch(currentIndex, newVal => {
   localStorage.setItem('jlpt-quiz-index', newVal);
 });
 
-// 메서드
 const prevWord = () => {
   currentIndex.value =
     (currentIndex.value - 1 + filteredWords.value.length) %
@@ -77,6 +76,22 @@ const prevWord = () => {
 const nextWord = () => {
   currentIndex.value = (currentIndex.value + 1) % filteredWords.value.length;
 };
+
+// 키보드 이벤트 핸들러
+const handleKeydown = e => {
+  if (e.key === 'ArrowLeft') {
+    prevWord();
+  } else if (e.key === 'ArrowRight') {
+    nextWord();
+  }
+};
+
+onMounted(() => {
+  window.addEventListener('keydown', handleKeydown);
+});
+onBeforeUnmount(() => {
+  window.removeEventListener('keydown', handleKeydown);
+});
 
 const randomWord = () => {
   currentIndex.value = Math.floor(Math.random() * filteredWords.value.length);
